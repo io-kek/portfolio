@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="blog">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+    <link rel="apple-touch-icon" href="/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/favicon-144.png">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body class="body--dark_mod">
+    <div class="preloader"></div>
+    <header class="header">
+      <div class="header_in"><a class="header__logo" href="index.html" aria-label="WERC logo">
+          <svg class="header__logo_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81.51 34.56">
+            <path class="header__logo_text" d="m75.32,9.22c4.06,0,5.9,2.72,6.16,6.53l-5.06.92c-.03-2.72-.36-3.38-.97-3.38-.68,0-1,.75-1,3.77v2.76c0,3.02.35,3.77,1,3.77s1.03-.66,1.19-3.35l4.87.88c-.45,4.3-2.29,6.53-6.39,6.53s-6.58-3.02-6.58-8.26v-1.9c0-5.25,2.68-8.26,6.77-8.26Zm-26.58,0c4.42,0,6.74,3.18,6.74,8.69v2.13h-8.13c.1,2.46,1.06,3.05,2.94,3.05,1.13,0,2.77-.49,4.32-1.28l1.13,4.1c-2.03,1.05-4.1,1.64-6.68,1.64-4.68,0-7.32-2.82-7.32-8.17v-1.9c0-5.25,2.58-8.26,7-8.26Zm19.19.03v6.46c-2.35.26-3.87.82-5.13,1.64v9.97h-6V10.07l6-.79v5.94h.13c1.74-4.2,3.22-5.74,5-5.97Zm-19.22,3.74c-.87,0-1.35.72-1.35,4.59h2.71c0-3.93-.45-4.59-1.35-4.59Z" fill="#232323" fill-rule="evenodd"></path>
+            <rect class="header__logo_bg" width="34.56" height="34.56" rx="9.58" ry="9.58" fill="#dce161"></rect>
+            <path class="header__logo_letter" d="m11.7,9.21l1.17,10.66,1.4-10.66h6.39l1.4,10.66,1.17-10.66h5.67l-3.29,17.97h-6.75l-1.47-10-1.5,10.01h-6.85l-3.29-17.97h5.94Z" fill="#121212" fill-rule="evenodd"></path>
+          </svg></a>
+        <div class="header__controls">
+          <div class="header__btn"><a class="btn_v2" href="#">Waitlist </a></div>
+          <button class="header__trigger js-header-menu-trigger" type="button">Menu</button>
+        </div>
+      </div>
+      <div class="header_menu js-header-menu">
+        <ul class="header_menu__list">
+          <li class="header_menu__item"><a class="header_menu__link header_menu__link--active_mod" href="#">Home</a></li>
+          <li class="header_menu__item"><a class="header_menu__link" href="#">blog</a></li>
+          <li class="header_menu__item"><a class="header_menu__link" href="#">about</a></li>
+        </ul>
+        <div class="header_menu__contact">
+          <div class="header_menu__contact_title">hit us up</div>
+          <div class="header_menu__contact_data"><a class="header_menu__contact_link" href="mailto:hello@wercflow.com">hello@wercflow.com </a></div>
+        </div>
+        <div class="header_menu__btn"><a class="btn_base" href="#">Log in</a></div>
+      </div>
+    </header>
+    <div class="global_wrapper js-global-wrapper">
+      <div class="wrapper">
+        <div class="base">
+          <section class="section blog_list">
+            <div class="section_in">
+                        <div class="vertical_line">
+                          <div class="vertical_line__dot vertical_line__start"></div>
+                          <div class="vertical_line__line"></div>
+                          <div class="vertical_line__dot vertical_line__end"></div>
+                        </div>
+              <h1 class="blog_list__title">Blog</h1>
+              <div class="blog_list__top"> 
+                <div class="blog_list__main_card">
+                            <div class="blog_card blog_card--layout_big_mod"><a class="blog_card__link" href="#">
+                                <picture class="blog_card__picture">
+                                  <source srcset="images/blog/blog1.jpg.webp" type="image/webp">
+                                  <source srcset="images/blog/blog1.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog1.jpg" alt="some image" loading="eager">
+                                </picture>
+                                <div class="blog_card__content"> 
+                                  <div class="blog_card__title">TITLE here</div>
+                                  <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                                </div></a></div>
+                </div>
+                <div class="blog_list__widget"> 
+                  <div class="blog_list__widget_title">The latest POSTS</div>
+                  <ul class="widget_list">
+                    <li class="widget_list__item"> <a class="widget_list__link" href="#">
+                        <div class="widget_list__link_title">Title here</div>
+                        <div class="widget_list__link_description">
+                          <p>With Werc, you're not just credited, you're <br>verified. </p>
+                        </div></a></li>
+                    <li class="widget_list__item"> <a class="widget_list__link" href="#">
+                        <div class="widget_list__link_title">Title here</div>
+                        <div class="widget_list__link_description">
+                          <p>With Werc, you're not just credited, you're <br>verified. </p>
+                        </div></a></li>
+                    <li class="widget_list__item"> <a class="widget_list__link" href="#">
+                        <div class="widget_list__link_title">Title here</div>
+                        <div class="widget_list__link_description">
+                          <p>With Werc, you're not just credited, you're <br>verified. </p>
+                        </div></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="blog_list__wrapper"> 
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog1.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog1.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog1.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog2.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog2.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog2.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog1.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog1.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog1.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog1.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog1.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog1.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog2.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog2.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog2.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+                          <div class="blog_card"><a class="blog_card__link" href="#">
+                              <picture class="blog_card__picture">
+                                <source srcset="images/blog/blog1.jpg.webp" type="image/webp">
+                                <source srcset="images/blog/blog1.jpg" type="image/jpeg"><img class="blog_card__img" src="images/blog/blog1.jpg" alt="some image" loading="eager">
+                              </picture>
+                              <div class="blog_card__content"> 
+                                <div class="blog_card__title">TITLE here</div>
+                                <div class="blog_card__description">With Werc, you're not just credited, you're verified. We </div>
+                              </div></a></div>
+              </div>
+            </div>
+          </section>
+          <div class="blog__marquee_w">
+            <div class="blog__marquee js-marquee-track">
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+              <div class="blog__marquee_content js-marquee-content">
+                <p>Your power play for more Werc</p>
+              </div>
+            </div>
+          </div>
+          <section class="section waitlist waitlist--style_big_mod">
+            <div class="section_in"><a class="waitlist__link js-waitlist-btn" href="#">Waitlist</a></div>
+          </section>
+        </div>
+        <footer class="footer">
+          <div class="footer_in">
+            <ul class="footer_menu">
+              <li class="footer_menu__item"><a class="footer_menu__link" href="#">Privacy policy</a></li>
+              <li class="footer_menu__item"><a class="footer_menu__link" href="#">Terms of service</a></li>
+              <li class="footer_menu__item"><a class="footer_menu__link" href="#">Blog</a></li>
+              <li class="footer_menu__item"><a class="footer_menu__link" href="#">About us</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+        <div class="popup js-popup-sign-up sign_up_popup__wrapper">
+          <div class="popup_in">
+            <button class="popup_close js-popup-close" type="button" aria-label="Close Popup" tabindex="0"></button>
+            <div class="sign_up_popup__header">
+              <div class="sign_up_popup__title">Waitlist Sign-up</div>
+            </div>
+            <div class="sign_up_popup__main">
+              <form class="popup_sign_up__form" action="#">
+                <ul class="popup_sign_up__list">
+                  <li class="popup_sign_up__item">
+                        <div class="popup_sign_up__input_group">
+                          <label class="form_input__label" for="form-sign-up__name">Full name</label>
+                          <div class="form_input__field">
+                            <input class="form_input__element" type="text" id="form-sign-up__name" placeholder="Type your name" name="name" required>
+                          </div>
+                        </div>
+                  </li>
+                  <li class="popup_sign_up__item">
+                        <div class="popup_sign_up__input_group">
+                          <label class="form_input__label" for="form-sign-up__job">Your job</label>
+                          <div class="form_input__field">
+                            <input class="form_input__element" type="text" id="form-sign-up__job" placeholder="Type your role" name="job" required>
+                          </div>
+                        </div>
+                  </li>
+                  <li class="popup_sign_up__item">
+                        <div class="popup_sign_up__input_group">
+                          <label class="form_input__label" for="form-sign-up__company">Company</label>
+                          <div class="form_input__field">
+                            <input class="form_input__element" type="text" id="form-sign-up__company" placeholder="Type your company or write freelance" name="company" required>
+                          </div>
+                        </div>
+                  </li>
+                  <li class="popup_sign_up__item">
+                        <div class="popup_sign_up__input_group">
+                          <label class="form_input__label" for="form-sign-up__email">Work email</label>
+                          <div class="form_input__field">
+                            <input class="form_input__element" type="email" id="form-sign-up__email" placeholder="Type your work email" name="email" required>
+                          </div>
+                        </div>
+                  </li>
+                </ul>
+                <div class="form_sign_up__action_buttons">
+                  <button class="form_sign_up__btn_close js-popup-close" type="button" aria-label="Close Popup" tabindex="0">Cancel</button>
+                  <button class="form_sign_up__btn_sign_up" type="submit">Sign-up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+  <script defer src="js/app.js"></script></body>
+</html>

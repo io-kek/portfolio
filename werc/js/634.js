@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglivera_webpack_template=self.webpackChunkglivera_webpack_template||[]).push([[634],{634:(a,e,l)=>{l.r(e),l.d(e,{lazyLoad:()=>n});var t=l(358),c=l(546),r=l.n(c),n=function(){console.log("laaaaaaaaaaaazy");var a=document.querySelectorAll("[data-src]");console.log(a),a.length&&t.ZP.registerPlugin(r())}}}]);
