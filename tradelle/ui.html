@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="ui">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Ui</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header js-header">
+      <div class="header__in"> 
+        <div class="header__row"> 
+          <div class="header__logo"> <a class="header__logo_link" href="#"><img class="header__img" src="images/logo_big.svg" alt="Tradelle - site logo"></a></div>
+          <div class="header__content"> 
+            <nav class="header__body">
+              <ul class="header_list"> 
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Why Tradelle?
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_fund-view icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#fund-view"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Hand-picked products</span><span class="header_sublist__text">Choose a profitable product</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_select icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#select"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product importer</span><span class="header_sublist__text">Import products in 1 click</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_sync icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#sync"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Automatic orders</span><span class="header_sublist__text">Automatically fulfill your orders</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_scan icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#scan"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Tracking number updates</span><span class="header_sublist__text">View order updates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Fulfillment by Tradelle</span><span class="header_sublist__text">Learn more about fulfillment</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_inbox icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#inbox"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product sourcing</span><span class="header_sublist__text">Details about product sourcing</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Resources
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_read icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#read"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Blog</span><span class="header_sublist__text">Latest Insights & Tips</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_user icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#user"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">About us</span><span class="header_sublist__text">Who We Are & Mission</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_appstore icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#appstore"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Templates</span><span class="header_sublist__text">Vast Library of Templates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_question icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#question"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Support</span><span class="header_sublist__text">Help & Troubleshooting</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_discord icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Discord Community</span><span class="header_sublist__text">Join Our Discord Family</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_dollar icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#dollar"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Affiliate program</span><span class="header_sublist__text">Earn With Us</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Pricing</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">About</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Blog</a>
+                </li>
+              </ul><a class="btn_base btn_mobile" href="#">Get Started for Free</a>
+            </nav>
+            <div class="header__buttons"> <a class="btn_v3 btn_mobile" href="#">Sign in</a><a class="btn_v1 btn_desktop" href="#">Log in </a><a class="btn_base btn_desktop" href="#">Get Started for Free</a></div>
+            <button class="header__menu_trigger js-header-menu-trigger" type="button" aria-label="Toggle menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="progress_bar js-progress-bar">
+      <div class="progress_bar__fill js-progress-bar-fill"></div>
+    </div>
+    <div class="wrapper js-wrapper">
+      <div class="base">
+        <section class="section section_ui">
+          <div class="section_in">
+            <div class="section_ui__block">
+              <div class="heading">
+                <h2 class="heading__title">Ui page</h2>
+              </div>
+            </div>
+            <div class="section_ui__block">
+              <div class="heading">
+              </div>
+              <div class="ui_typography__line">
+                <div class="ui_typography__item">Text style</div>
+                <div class="ui_typography__item">Size</div>
+                <div class="ui_typography__item">Weight</div>
+              </div>
+              <ul class="ui_typography">
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h1 class="ui_typography__title">h1</h1>
+                  </div>
+                  <div class="ui_typography__item">72</div>
+                  <div class="ui_typography__item">700</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h2 class="ui_typography__title">h2</h2>
+                  </div>
+                  <div class="ui_typography__item">56</div>
+                  <div class="ui_typography__item">700</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h3 class="ui_typography__title">h3</h3>
+                  </div>
+                  <div class="ui_typography__item">40</div>
+                  <div class="ui_typography__item">500</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h4 class="ui_typography__title">h4</h4>
+                  </div>
+                  <div class="ui_typography__item">32</div>
+                  <div class="ui_typography__item">400</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h5 class="ui_typography__title">h5</h5>
+                  </div>
+                  <div class="ui_typography__item">24</div>
+                  <div class="ui_typography__item">400</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <h6 class="ui_typography__title">h6</h6>
+                  </div>
+                  <div class="ui_typography__item">20</div>
+                  <div class="ui_typography__item">400</div>
+                </li>
+                <li class="ui_typography__line">
+                  <div class="ui_typography__item">
+                    <div class="ui_typography__text">Text</div>
+                  </div>
+                  <div class="ui_typography__item">18</div>
+                  <div class="ui_typography__item">400</div>
+                </li>
+              </ul>
+            </div>
+            <div class="section_ui__block">
+              <div class="heading">
+              </div>
+<ul class="ui_buttons">
+  <li class="ui_buttons__item"><a class="ui_buttons__btn section_ui__btn--mod_1" href="">Button 1</a></li>
+  <li class="ui_buttons__item"><a class="ui_buttons__btn section_ui__btn--mod_2" href="">Button 2</a></li>
+  <li class="ui_buttons__item"><a class="ui_buttons__btn section_ui__btn--mod_3" href="">Button 3</a></li>
+</ul>
+            </div>
+            <div class="section_ui__block">
+              <div class="heading">
+              </div>
+              <form class="ui_form">
+                <ul class="ui_form__list">
+                  <li class="ui_form__item">
+                    <div class="form_input">
+                      <label class="form_input__label" for="input_1">Default input 1</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text" id="input_1" placeholder="Placeholder" value="">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item">
+                    <div class="form_input">
+                      <label class="form_input__label" for="input_1">Default input 2</label>
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="text" id="input_1" placeholder="Placeholder" value="">
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item ui_form__item--full_mod">
+                    <div class="form_textarea">
+                      <label class="form_textarea__label" for="textarea_1">Default textarea</label>
+                      <div class="form_textarea__field">
+                        <textarea class="form_textarea__element" placeholder="Placeholder"></textarea>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item">
+                    <div class="form_select">
+                      <label class="form_select__label" for="select_1">Default select 1</label>
+                      <div class="form_select__field">
+                        <select class="form_select__element">
+                          <option>item</option>
+                          <option>value</option>
+                          <option>hello</option>
+                        </select>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item">
+                    <div class="form_select">
+                      <label class="form_select__label" for="select_1">Default select 2</label>
+                      <div class="form_select__field">
+                        <select class="form_select__element">
+                          <option>item</option>
+                          <option>value</option>
+                          <option>hello</option>
+                        </select>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item">
+                    <div class="ui_form__title">Checkboxes</div>
+                    <div class="ui_form__subitem">
+                      <div class="form_checkbox">
+                        <label class="form_checkbox__block">
+                          <input class="form_checkbox__element" type="checkbox" data-title="checkbox label 1"><span class="form_checkbox__label">checkbox label 1</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ui_form__subitem">
+                      <div class="form_checkbox">
+                        <label class="form_checkbox__block">
+                          <input class="form_checkbox__element" type="checkbox" data-title="checkbox label 2"><span class="form_checkbox__label">checkbox label 2</span>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="ui_form__item">
+                    <div class="ui_form__title">Radio buttons</div>
+                    <div class="ui_form__subitem">
+                      <div class="form_radio">
+                        <label class="form_radio__block" data-value="">
+                          <input class="form_radio__element" type="radio" name="radio_1"><span class="form_radio__label">radio label 1</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="ui_form__subitem">
+                      <div class="form_radio">
+                        <label class="form_radio__block" data-value="">
+                          <input class="form_radio__element" type="radio" name="radio_1"><span class="form_radio__label">radio label 2</span>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </form>
+            </div>
+            <div class="section_ui__block">
+              <div class="heading">
+              </div>
+            </div>
+          </div>
+          <ul class="ui_components">
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Home Hero</h4>
+              <div class="ui_components__block">
+                <section class="section hero js-product">
+                  <div class="section_in hero__in">
+                    <div class="hero__row">
+                      <div class="hero__column">
+                        <div class="hero__content">
+                          <h1>Your #1<a href="#tools"><strong> dropshipping</strong> product research tool</a> & supplier
+                          </h1>
+                          <p>Discover profitable product ideas and streamline your fulfillment process with Tradelle. Make informed decisions and save time.</p>
+                        </div>
+                        <ul class="hero__buttons">
+                          <li class="hero__button"><a class="btn_base" href="#">Get Started for Free</a></li>
+                          <li class="hero__button"><a class="btn_v2" href="#winning-products">Find Winning Products</a></li>
+                        </ul>
+                        <div class="sellers hero__sellers">
+                          <ul class="sellers__list">
+                            <li class="sellers__item"> 
+                              <picture class="sellers__picture">
+                                <source srcset="images/hero/avatar_1.png" type="image/png"><img class="sellers__img" src="images/hero/avatar_1.png" alt="seller avatar 1" loading="eager">
+                              </picture>
+                            </li>
+                            <li class="sellers__item"> 
+                              <picture class="sellers__picture">
+                                <source srcset="images/hero/avatar_2.png" type="image/png"><img class="sellers__img" src="images/hero/avatar_2.png" alt="seller avatar 2" loading="eager">
+                              </picture>
+                            </li>
+                            <li class="sellers__item"> 
+                              <picture class="sellers__picture">
+                                <source srcset="images/hero/avatar_3.png" type="image/png"><img class="sellers__img" src="images/hero/avatar_3.png" alt="seller avatar 3" loading="eager">
+                              </picture>
+                            </li>
+                            <li class="sellers__item"> 
+                              <picture class="sellers__picture">
+                                <source srcset="images/hero/avatar_4.png" type="image/png"><img class="sellers__img" src="images/hero/avatar_4.png" alt="seller avatar 4" loading="eager">
+                              </picture>
+                            </li>
+                            <li class="sellers__item sellers__item--number_mod">
+                              <div class="sellers__number">+100</div>
+                            </li>
+                          </ul>
+                          <div class="sellers__label">Join 46,000+ sellers</div>
+                        </div>
+                      </div>
+                      <div class="hero__column">
+                        <div class="hero__container">
+                          <div class="hero__circle">
+                            <div class="hero__decor hero__decor--v0_mod"></div>
+                            <div class="hero__decor hero__decor--v1_mod"></div>
+                            <div class="hero__decor hero__decor--v2_mod"></div>
+                            <div class="hero__decor hero__decor--v3_mod"></div>
+                            <div class="hero__circle_decor js-product-circle"></div>
+                            <div class="hero__circle_in">
+                              <ul class="hero__cards js-product-cards" data-autoplay-delay="4000" data-initial-delay="2000">
+                                <li class="hero__card hero__card--v0_mod" data-x-percent="-6" data-y-percent="3" data-autoplay-order="4">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/01.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/01.jpg" alt="product 1" loading="eager">
+                                    </picture>
+                                    <div class="hero_product__item hero_product__item--v0_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_currency icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#currency"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Product Cost</div>
+                                        <div class="hero_product__price">$8.12</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v1_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_finance icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#finance"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Profit per Sale</div>
+                                        <div class="hero_product__price">$16.87</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v2_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_price_tag icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#price_tag"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Selling Price</div>
+                                        <div class="hero_product__price">$24.99</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="hero__card hero__card--v1_mod" data-x-percent="2" data-y-percent="6" data-autoplay-order="2">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/02.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/02.jpg" alt="product 2" loading="eager">
+                                    </picture>
+                                    <div class="hero_product__item hero_product__item--v0_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_currency icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#currency"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Product Cost</div>
+                                        <div class="hero_product__price">$8.12</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v1_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_finance icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#finance"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Profit per Sale</div>
+                                        <div class="hero_product__price">$16.87</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v2_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_price_tag icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#price_tag"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Selling Price</div>
+                                        <div class="hero_product__price">$24.99</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="hero__card hero__card--v2_mod" data-x-percent="-8" data-y-percent="-2" data-autoplay-order="3">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/03.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/03.jpg" alt="product 3" loading="eager">
+                                    </picture>
+                                    <div class="hero_product__item hero_product__item--v0_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_currency icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#currency"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Product Cost</div>
+                                        <div class="hero_product__price">$8.12</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v1_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_finance icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#finance"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Profit per Sale</div>
+                                        <div class="hero_product__price">$16.87</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v2_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_price_tag icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#price_tag"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Selling Price</div>
+                                        <div class="hero_product__price">$24.99</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="hero__card hero__card--v3_mod" data-x-percent="4" data-y-percent="-5" data-autoplay-order="0">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/04.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/04.jpg" alt="product 4" loading="eager">
+                                    </picture>
+                                    <div class="hero_product__item hero_product__item--v0_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_currency icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#currency"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Product Cost</div>
+                                        <div class="hero_product__price">$8.12</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v1_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_finance icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#finance"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Profit per Sale</div>
+                                        <div class="hero_product__price">$16.87</div>
+                                      </div>
+                                    </div>
+                                    <div class="hero_product__item hero_product__item--v2_mod">
+                                      <div class="hero_product__wrap">
+                                        <div class="hero_product__icon">
+                                          <svg class="icon icon_price_tag icon--size_mod">
+                                            <use xlink:href="images/sprite/sprite.svg#price_tag"></use>
+                                          </svg>
+                                        </div>
+                                      </div>
+                                      <div class="hero_product__content">
+                                        <div class="hero_product__label">Selling Price</div>
+                                        <div class="hero_product__price">$24.99</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="hero__card hero__card--v4_mod" data-x-percent="-6" data-y-percent="-6" data-inactive="true" data-autoplay-order="5">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/05.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/05.jpg" alt="product 5" loading="eager">
+                                    </picture>
+                                  </div>
+                                </li>
+                                <li class="hero__card hero__card--v5_mod" data-x-percent="6" data-y-percent="-6" data-inactive="true" data-autoplay-order="1">
+                                  <div class="hero_product">
+                                    <picture class="hero_product__picture">
+                                      <source srcset="images/hero/06.jpg" type="image/jpeg"><img class="hero_product__img" src="images/hero/06.jpg" alt="product 6" loading="eager">
+                                    </picture>
+                                  </div>
+                                </li>
+                              </ul>
+                              <div class="hero__line js-product-line"></div>
+                              <div class="hero__center"><img class="hero__icon" src="images/logo.svg" alt="Logo"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Pricing Hero (block)</h4>
+              <div class="ui_components__block">
+                <section class="section pricing_hero js-timer-wrapper">
+                  <div class="section_in">
+                    <div class="heading heading--layout_2_mod">
+                      <div class="heading__title"><h1>Plans and Pricing</h1><img src='images/icons/figure.svg' alt='figure icon' /></div>
+                      <div class="heading__text"><p>Try Tradelle risk-free for 7 days with Tradelle's money-back guarantee</p></div>
+                    </div>
+                    <div class="pricing_hero__list_w">
+                      <ul class="pricing_hero__list">
+                        <li class="pricing_hero__item">
+                          <div class="pricing_hero__card pricing_hero__card--color_v1_mod">
+                            <div class="pricing_hero__top">
+                              <div class="pricing_hero__label">
+                                <div class="pricing_hero__label_icon"><img class="pricing_hero__label_icon_in" src="images/icons/cake.png" alt="icon"></div>
+                                <div class="pricing_hero__label_text">Free</div>
+                              </div>
+                              <div class="pricing_hero__price_block">
+                                <div class="pricing_hero__price_top_block">
+                                  <div class="pricing_hero__price">
+                                    <div class="pricing_hero__value">$0</div>
+                                    <div class="pricing_hero__per_time">month</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="pricing_hero__btn_block"><a class="btn_v1" href="#">Select Plan</a></div>
+                            </div>
+                            <div class="pricing_hero__bottom">
+                              <div class="pricing_hero__info_text">
+                                <p>Always free</p>
+                                <p>No credit card required</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="pricing_hero__item">
+                          <div class="pricing_hero__card_info">
+                            <p>One sale a month will cover the cost of your subscription</p><span class="pricing_hero__card_info_decor">
+                              <svg class="icon icon_arrow icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#arrow"></use>
+                              </svg></span>
+                          </div>
+                          <div class="pricing_hero__card pricing_hero__card--color_v2_mod">
+                            <div class="pricing_hero__top">
+                              <div class="pricing_hero__label">
+                                <div class="pricing_hero__label_icon"><img class="pricing_hero__label_icon_in" src="images/icons/flag.png" alt="icon"></div>
+                                <div class="pricing_hero__label_text">Monthly</div>
+                              </div>
+                              <div class="pricing_hero__price_block">
+                                <div class="pricing_hero__price_top_block">
+                                  <div class="pricing_hero__price">
+                                    <div class="pricing_hero__value">$29.99</div>
+                                    <div class="pricing_hero__per_time">month</div>
+                                  </div>
+                                  <div class="pricing_hero__discount">-25%</div>
+                                </div>
+                                <div class="pricing_hero__old_price">$39.99</div>
+                              </div>
+                              <div class="pricing_hero__btn_block"><a class="btn_base" href="#">Select Plan</a></div>
+                            </div>
+                            <div class="pricing_hero__bottom">
+                              <div class="pricing_hero__info_text">
+                                <p>$29.99 billed montly</p>
+                                <p>7-day money-back guarantee</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="pricing_hero__item">
+                          <div class="pricing_hero__card pricing_hero__card--color_v3_mod">
+                            <div class="pricing_hero__card_label">
+                              <div class="card_label__icon_card_label">
+                                <svg class="icon icon_fire icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#fire"></use>
+                                </svg>
+                              </div>
+                              <div class="card_label__text">Best Price</div>
+                            </div>
+                            <div class="pricing_hero__top">
+                              <div class="pricing_hero__label">
+                                <div class="pricing_hero__label_icon"><img class="pricing_hero__label_icon_in" src="images/icons/rocket.png" alt="icon"></div>
+                                <div class="pricing_hero__label_text">Yearly</div>
+                              </div>
+                              <div class="pricing_hero__price_block">
+                                <div class="pricing_hero__price_top_block">
+                                  <div class="pricing_hero__price">
+                                    <div class="pricing_hero__value">$19.99</div>
+                                    <div class="pricing_hero__per_time">month</div>
+                                  </div>
+                                  <div class="pricing_hero__discount">-33%</div>
+                                </div>
+                                <div class="pricing_hero__old_price">$29.99</div>
+                              </div>
+                              <div class="pricing_hero__btn_block"><a class="btn_base" href="#">Select Plan</a></div>
+                            </div>
+                            <div class="pricing_hero__bottom">
+                              <div class="pricing_hero__info_text">
+                                <p>$239.88 billed ONCE annually</p>
+                                <p>7-day money-back guarantee</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="pricing_hero__item">
+                          <div class="pricing_hero__card pricing_hero__card--color_v4_mod">
+                            <div class="pricing_hero__card_label">
+                              <div class="card_label__icon_card_label">
+                                <svg class="icon icon_time icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#time"></use>
+                                </svg>
+                              </div>
+                              <div class="card_label__text">Limited Time Offer</div>
+                            </div>
+                            <div class="pricing_hero__top">
+                              <div class="pricing_hero__label">
+                                <div class="pricing_hero__label_icon"><img class="pricing_hero__label_icon_in" src="images/icons/party_popper.png" alt="icon"></div>
+                                <div class="pricing_hero__label_text">Lifetime</div>
+                              </div>
+                              <div class="pricing_hero__price_block">
+                                <div class="pricing_hero__price_top_block">
+                                  <div class="pricing_hero__price">
+                                    <div class="pricing_hero__value">$479.00</div>
+                                    <div class="pricing_hero__per_time">once</div>
+                                  </div>
+                                </div>
+                                <div class="pricing_hero__colored_label">only until sale ends</div>
+                              </div>
+                              <div class="pricing_hero__btn_block"><a class="btn_base" href="#">Select Plan</a></div>
+                            </div>
+                            <div class="pricing_hero__bottom">
+                              <div class="pricing_hero__info_text">
+                                <p>$479.00 billed ONCE, use forever</p>
+                                <p>7-day money-back guarantee</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Features (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section features" data-id="features">
+                  <div class="section_in">
+                    <ul class="features__row">
+                      <li class="features__col features__col--full_mod">
+                        <div class="card_features">
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">Quick Importing</h3>
+                                <div class="card_features__text">
+                                  <p>The user can import all products listed in just one click. The product will appear in their store in just a few seconds.</p>
+                                </div><a class="btn_v2" href="#">Get Started for Free</a>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/quick_importing.svg" type="image/svg+xml">
+                                <source media="(max-width: 479px)" srcset="images/features/quick_importing_mobile.svg" type="image/svg+xml"><img class="card_features__img_in" src="images/features/quick_importing.svg" alt="Quick Importing" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="features__col">
+                        <div class="card_features card_features--size_2_mod">
+                          <div class="card_features__decor_w"><img class="card_features__decor_in" src="images/features/decor_2.svg" alt="card decor" loading="eager"></div>
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">Tracking of All Orders</h3>
+                                <div class="card_features__text">
+                                  <p>Tracking numbers are automatically forwarded to the platform once received. They’re visible in Shopify directly and the end-customers receive an email notification automatically as well.</p>
+                                </div><a class="btn_v2" href="#">Get Started for Free</a>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/tracking_of_all_orders.svg" type="image/svg+xml">
+                                <source media="(max-width: 479px)" srcset="images/features/tracking_of_all_orders.svg" type="image/svg+xml"><img class="card_features__img_in" src="images/features/tracking_of_all_orders.svg" alt="Tracking of All Orders" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="features__col">
+                        <div class="card_features card_features--size_3_mod">
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">Product Sourcing to Suppliers</h3>
+                                <div class="card_features__text">
+                                  <p>Every product found online can be inquired and sourced by Tradelle. Tradelle’s sourcing team in China contacts the manufacturer directly and negotiates a price and better shipping conditions.</p>
+                                </div><a class="btn_v2" href="#">Get Started for Free</a>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/product_sourcing_to_suppliers.svg" type="image/svg+xml">
+                                <source media="(max-width: 479px)" srcset="images/features/product_sourcing_to_suppliers.svg" type="image/svg+xml"><img class="card_features__img_in" src="images/features/product_sourcing_to_suppliers.svg" alt="Product Sourcing to Suppliers" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Features v2 (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section features features--v2_mod" data-id="features">
+                  <div class="section_in">
+                    <div class="heading features__heading">
+                      <div class="heading__subtitle">Features</div>
+                      <div class="heading__title"><h2>Why should you use Tradelle</h2></div>
+                    </div>
+                    <ul class="features__row">
+                      <li class="features__col">
+                        <div class="card_features">
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">Profitable products</h3>
+                                <div class="card_features__text">
+                                  <ul>
+                                    <li>Access to premium-only products</li>
+                                    <li>Early trend products</li>
+                                    <li>Full product history</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/profit.png" type="image/png">
+                                <source media="(max-width: 479px)" srcset="images/features/profit.png" type="image/png"><img class="card_features__img_in" src="images/features/profit.png" alt="Profitable products" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="features__col">
+                        <div class="card_features">
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">One-click product import</h3>
+                                <div class="card_features__text">
+                                  <ul>
+                                    <li>Streamlined setup process</li>
+                                    <li>Rapid integration</li>
+                                    <li>Effortless Catalog Expansion</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/one_click_product.png" type="image/png">
+                                <source media="(max-width: 479px)" srcset="images/features/one_click_product.png" type="image/png"><img class="card_features__img_in" src="images/features/one_click_product.png" alt="One-click product import" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="features__col">
+                        <div class="card_features">
+                          <div class="card_features__row">
+                            <div class="card_features__col card_features__col--content_mod">
+                              <div class="card_features__heading">
+                                <h3 class="card_features__title">Fulfillment by Tradelle</h3>
+                                <div class="card_features__text">
+                                  <ul>
+                                    <li>Custom Quote Requests</li>
+                                    <li>Direct Supplier Sourcing</li>
+                                    <li>Hassle-Free Inventory Management</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card_features__col card_features__col--image_mod">
+                              <picture class="card_features__img_w">
+                                <source media="(min-width: 480px)" srcset="images/features/fulfillment_by_tradelle.png" type="image/png">
+                                <source media="(max-width: 479px)" srcset="images/features/fulfillment_by_tradelle.png" type="image/png"><img class="card_features__img_in" src="images/features/fulfillment_by_tradelle.png" alt="Fulfillment by Tradelle" loading="lazy">
+                              </picture>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Stories (block)</h4>
+              <div class="ui_components__block">
+                <section class="section stories js-stories">
+                  <div class="section_in">
+                    <div class="heading">
+                      <div class="heading__subtitle">from the first hands</div>
+                      <div class="heading__title"><h2>Success Stories</h2></div>
+                    </div>
+                    <ul class="stories__row">
+                      <li class="stories__column">
+                        <div class="stories_card">
+                          <picture class="stories_card__img_w">
+                            <source srcset="images/stories/martin_kowalczyk.jpg" type="image/jpeg"><img class="stories_card__img_in" src="images/stories/martin_kowalczyk.jpg" alt="some image" loading="lazy">
+                          </picture>
+                          <div class="stories_card__content">
+                            <div class="stories_card__decor_icon">
+                              <svg class="icon icon_quote icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#quote"></use>
+                              </svg>
+                            </div>
+                            <div class="stories_card__top js-stories-parent">
+                              <div class="stories_card__text js-stories-text">
+                                <p>“I now run all of my dropshipping stores. It's the only platform I trust to save me time, monitor my products 24/7, and fulfill my orders on time.”</p>
+                              </div>
+                              <button class="stories_card__more js-stories-btn" type="button" data-more-text="View More" data-less-text="View Less" aria-label="View more about this story"></button>
+                            </div>
+                            <div class="stories_card__card_bottom">
+                              <div class="stories_card__name">Martin Kowalczyk</div>
+                              <div class="stories_card__prof">Data Analyst, Essentials4You</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="stories__column">
+                        <div class="stories_card">
+                          <picture class="stories_card__img_w">
+                            <source srcset="images/stories/felicitas-beeh.jpg" type="image/jpeg"><img class="stories_card__img_in" src="images/stories/felicitas-beeh.jpg" alt="some image" loading="lazy">
+                          </picture>
+                          <div class="stories_card__content">
+                            <div class="stories_card__decor_icon">
+                              <svg class="icon icon_quote icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#quote"></use>
+                              </svg>
+                            </div>
+                            <div class="stories_card__top js-stories-parent">
+                              <div class="stories_card__text js-stories-text">
+                                <p>“To say that Tradelle took my e-commerce business to the next level is an understatement. The professional, extensive product research goes far beyond anything I had ever gotten from hired researchers.</p>
+                              </div>
+                              <button class="stories_card__more js-stories-btn" type="button" data-more-text="View More" data-less-text="View Less" aria-label="View more about this story"></button>
+                            </div>
+                            <div class="stories_card__card_bottom">
+                              <div class="stories_card__name">Felicitas Beeh</div>
+                              <div class="stories_card__prof">Co-Founder, M&V Warenhandel</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="stories__column">
+                        <div class="stories_card">
+                          <picture class="stories_card__img_w">
+                            <source srcset="images/stories/placeholder.jpg" type="image/jpeg"><img class="stories_card__img_in" src="images/stories/placeholder.jpg" alt="some image" loading="lazy">
+                          </picture>
+                          <div class="stories_card__content">
+                            <div class="stories_card__decor_icon">
+                              <svg class="icon icon_quote icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#quote"></use>
+                              </svg>
+                            </div>
+                            <div class="stories_card__top js-stories-parent">
+                              <div class="stories_card__text js-stories-text">
+                                <p>“It has saved me a lot of time on my dropshipping business”</p>
+                              </div>
+                              <button class="stories_card__more js-stories-btn" type="button" data-more-text="View More" data-less-text="View Less" aria-label="View more about this story"></button>
+                            </div>
+                            <div class="stories_card__card_bottom">
+                              <div class="stories_card__name">Rami Jordan</div>
+                              <div class="stories_card__prof">Data Analyst, Essentials4You</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="stories__column">
+                        <div class="stories_card">
+                          <picture class="stories_card__img_w">
+                            <source srcset="images/stories/placeholder.jpg" type="image/jpeg"><img class="stories_card__img_in" src="images/stories/placeholder.jpg" alt="some image" loading="lazy">
+                          </picture>
+                          <div class="stories_card__content">
+                            <div class="stories_card__decor_icon">
+                              <svg class="icon icon_quote icon--size_mod">
+                                <use xlink:href="images/sprite/sprite.svg#quote"></use>
+                              </svg>
+                            </div>
+                            <div class="stories_card__top js-stories-parent">
+                              <div class="stories_card__text js-stories-text">
+                                <p>“As someone who loves technology, I appreciate the advanced features Tradelle offers. </p>
+                              </div>
+                              <button class="stories_card__more js-stories-btn" type="button" data-more-text="View More" data-less-text="View Less" aria-label="View more about this story"></button>
+                            </div>
+                            <div class="stories_card__card_bottom">
+                              <div class="stories_card__name">Jessica Hoffman</div>
+                              <div class="stories_card__prof">Data Analyst, Essentials4You</div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Feature (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section feature feature--small_image_mod">
+                  <div class="section_in">
+                    <div class="feature__row">
+                      <div class="feature__column feature__column--image_mod">
+                        <picture class="feature__img_w">
+                          <source media="(min-width: 768px)" srcset="images/feature/experience_knowing.png" type="image/png"><img class="feature__img_in" src="images/feature/experience_knowing.png" alt="some image" loading="eager">
+                        </picture>
+                      </div>
+                      <div class="feature__column feature__column--content_mod">
+                        <div class="feature__content">
+                          <div class="heading">
+                            <div class="heading__subtitle">AI AND A PASSIOANTE TEAM COMBINED</div>
+                            <div class="heading__title"><h2>Experience Knowing Rather than Guessing.</h2></div>
+                            <div class="heading__text"><p>Tradelle employs AI to forecast product profitability for sellers on standalone shops, Amazon, and eBay of all sizes. Our research team, with partner collaboration, validates data using practical, field-tested methodologies to drive growth for all markets</p></div>
+                          </div>
+                          <div class="feature__btn_w"><a class="btn_base" href="#">Explore Products</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Feature reverse (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section feature feature--reverse_mod">
+                  <div class="section_in">
+                    <div class="feature__row">
+                      <div class="feature__column feature__column--image_mod">
+                        <picture class="feature__img_w">
+                          <source media="(min-width: 768px)" srcset="images/feature/product_research.png" type="image/png"><img class="feature__img_in" src="images/feature/product_research.png" alt="some image" loading="eager">
+                        </picture>
+                      </div>
+                      <div class="feature__column feature__column--content_mod">
+                        <div class="feature__content">
+                          <div class="heading">
+                            <div class="heading__subtitle">TRADELLE'S VISION</div>
+                            <div class="heading__title"><h2>Your All-in-one Platform for Product Research</h2></div>
+                            <div class="heading__text"><p>Find products to sell with unparalleled market insights, segment and trend analysis. Make sure your products are profitable. Let Tradelle do the complex math for you</p></div>
+                          </div>
+                          <div class="feature__btn_w"><a class="btn_base" href="#">Explore Products</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">hero v2 (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section hero_v2">
+                  <div class="section_in">
+                    <div class="hero_v2__body">
+                      <div class="hero_v2__section_decor_w"><img class="hero_v2__section_decor_in" src="images/hero/decor.svg" alt="hero decor">
+                      </div>
+                      <div class="hero_v2__row">
+                        <div class="hero_v2__column">
+                          <div class="hero_v2__content">
+                            <div class="heading heading--layout_3_mod">
+                              <div class="heading__title"><h1>50% recurring commission, forever</h1><img src='images/icons/dollar.svg' alt='dollar icon' /></div>
+                              <div class="heading__text"><p>Build a lasting income stream. Guide e-commerce audience to our premier product search tool and enjoy lifetime earnings.</p></div>
+                            </div>
+                            <div class="hero_v2__wrap">
+                              <div class="hero_v2__buttons"><a class="btn_base" href="#">Join the Program</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="hero_v2__column">
+                          <div class="hero_v2__calc">
+                            <div class="calculator js-calculator-wrapper" data-calculator-coef="14.995">
+                              <div class="calculator__heading">
+                                <h2 class="calculator__title">Check potential earnings</h2>
+                                <div class="calculator__text">
+                                  <p>You can earn with our affiliate program:</p>
+                                </div>
+                              </div>
+                              <div class="calculator__input_w">
+                                <label class="calculator__label" for="calc_1"><span class="calculator__label_icon">
+                                    <svg class="icon icon_user icon--size_mod">
+                                      <use xlink:href="images/sprite/sprite.svg#user"></use>
+                                    </svg></span><span class="calculator__label_text">Number of entries</span></label>
+                                <div class="calculator__input_field">
+                                  <input class="calculator__input js-calculator-input" autocomplete="off" maxLength="5" type="number" id="calc_1" placeholder="250" value="250">
+                                </div>
+                              </div>
+                              <div class="calculator__decor_w"></div>
+                              <div class="calculator__result_w">
+                                <output class="calculator__result js-calculator-result" data-calculator-currency="$">0</output><span class="calculator__result_text">per month</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Cool Perks (block)</h4>
+              <div class="ui_components__block">
+                <section class="section cool_perks">
+                  <div class="section_in">
+                    <div class="heading">
+                      <div class="heading__subtitle">Cool perks</div>
+                      <div class="heading__title"><h2>Why Should You Join Tradelle  Affiliate Program</h2></div>
+                    </div>
+                    <ul class="cool-perks__row">
+                      <li class="cool_perks__column">
+                        <div class="cool_perks__card cool_perks__card--v1_mod">
+                          <div class="cool_perks__decor_w"><img class="cool_perks__decor_in" src="images/cool_perks/decor_1.svg" alt="card decor">
+                          </div>
+                          <div class="cool_perks__heading">
+                            <h3 class="cool_perks__title">Earn 50% Lifetime Commissions</h3>
+                            <div class="cool_perks__text">
+                              <p>Enjoy lifetime earnings from every customer you bring in to our product</p>
+                            </div>
+                          </div>
+                          <div class="cool_perks__bottom">
+                            <picture class="cool_perks__img_w">
+                              <source srcset="images/cool_perks/avatars.png" type="image/png"><img class="cool_perks__img_in" src="images/cool_perks/avatars.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cool_perks__column">
+                        <div class="cool_perks__card cool_perks__card--v2_mod">
+                          <div class="cool_perks__decor_w"><img class="cool_perks__decor_in" src="images/cool_perks/decor_2.svg" alt="card decor">
+                          </div>
+                          <div class="cool_perks__heading">
+                            <h3 class="cool_perks__title">Earn Extra With Every Order</h3>
+                            <div class="cool_perks__text">
+                              <p>Get an additional $0.50 for fulfilled order made by your referrals. Every sale counts!</p>
+                            </div>
+                          </div>
+                          <div class="cool_perks__bottom">
+                            <picture class="cool_perks__img_w">
+                              <source srcset="images/cool_perks/table.png" type="image/png"><img class="cool_perks__img_in" src="images/cool_perks/table.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cool_perks__column">
+                        <div class="cool_perks__card cool_perks__card--v3_mod">
+                          <div class="cool_perks__decor_w"><img class="cool_perks__decor_in" src="images/cool_perks/decor_3.svg" alt="card decor"><img class="cool_perks__decor_in cool_perks__decor_in--1_mod" src="images/cool_perks/decor_3.svg" alt="card decor">
+                          </div>
+                          <div class="cool_perks__heading">
+                            <h3 class="cool_perks__title">Monthly Payment of Commissions</h3>
+                            <div class="cool_perks__text">
+                              <p>Our clear, user-friendly system lets you monitor your conversions in real-time</p>
+                            </div>
+                          </div>
+                          <div class="cool_perks__bottom">
+                            <picture class="cool_perks__img_w">
+                              <source srcset="images/cool_perks/cards.png" type="image/png"><img class="cool_perks__img_in" src="images/cool_perks/cards.png" alt="some image" loading="lazy">
+                            </picture>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">calculator (block)</h4>
+              <div class="ui_components__block">
+                <section class="section sec_calculator">
+                  <div class="section_in">
+                    <div class="sec_calculator__body">
+                      <div class="sec_calculator__row">
+                        <div class="sec_calculator__column sec_calculator__column--calculator_mod">
+                          <div class="sec_calculator__calc_body"><img class="sec_calculator__decor" src="images/calculator/bg.svg" alt="background decor">
+                            <div class="sec_calculator__calc">
+                              <div class="calculator js-calculator-wrapper" data-calculator-coef="14.995">
+                                <div class="calculator__heading">
+                                  <h2 class="calculator__title">Check potential earnings</h2>
+                                  <div class="calculator__text">
+                                    <p>You can earn with our affiliate program:</p>
+                                  </div>
+                                </div>
+                                <div class="calculator__input_w">
+                                  <label class="calculator__label" for="calc_2"><span class="calculator__label_icon">
+                                      <svg class="icon icon_user icon--size_mod">
+                                        <use xlink:href="images/sprite/sprite.svg#user"></use>
+                                      </svg></span><span class="calculator__label_text">Number of entries</span></label>
+                                  <div class="calculator__input_field">
+                                    <input class="calculator__input js-calculator-input" autocomplete="off" maxLength="5" type="number" id="calc_2" placeholder="250" value="250">
+                                  </div>
+                                </div>
+                                <div class="calculator__decor_w"></div>
+                                <div class="calculator__result_w">
+                                  <output class="calculator__result js-calculator-result" data-calculator-currency="$">0</output><span class="calculator__result_text">per month</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sec_calculator__column sec_calculator__column--content_mod">
+                          <div class="heading">
+                            <div class="heading__title"><h2>50% recurring commission, forever</h2></div>
+                            <div class="heading__text"><p>Build a lasting income stream. Guide your e-commerce audience to our premier product search tool and enjoy lifetime earnings.</p></div>
+                          </div>
+                          <div class="sec_calculator__btn_block"><a class="btn_base" href="#">Join the Program</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">subscribe (mixin)</h4>
+              <div class="ui_components__block">
+                <section class="section cta cta--subscribe_mod">
+                  <div class="section_in">
+                    <div class="cta__card">
+                      <picture class="cta__pic">
+                        <source media="(min-width: 768px)" srcset="images/cta/bg_subscribe.jpg" type="image/jpeg">
+                        <source media="(max-width: 767px)" srcset="images/cta/bg_subscribe_mob.jpg" type="image/jpeg"><img class="cta__img" src="images/cta/bg_subscribe.jpg" alt="some image" loading="lazy">
+                      </picture>
+                      <div class="cta__content">
+                        <h2 class="cta__title">Subscribe to Tradelle Blog</h2>
+                        <div class="cta__text"><p>Get the latest posts in your email</p>
+                        </div>
+                        <div class="cta__form-w">
+                          <form action="#">
+                            <div class="form_input form_input--full_mod">
+                              <div class="form_input__field">
+                                <input class="form_input__element" type="email" id="subscribe_email" placeholder="Enter your email" required="email" title="field for entering e-mail">
+                              </div>
+                            </div>
+                            <button class="btn_base cta__btn" type="submit">Subscribe</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </li>
+            <li class="ui_components__item">
+              <h4 class="ui_components__title">Component name (mixin)</h4>
+              <div class="ui_components__block">
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="section_in">
+          <div class="footer__body">
+            <div class="footer__logo footer__logo--mobile_mod"><a class="footer__link_logo" href="#">
+                <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+            <div class="footer__text footer__text--mobile_mod">
+              <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+              <p>Company number: 14462289</p>
+            </div>
+            <div class="footer__row">
+              <div class="footer__col footer__col--info_mod">
+                <div class="footer__info_content">
+                  <div class="footer__info_top">
+                    <div class="footer__logo footer__logo--desktop_mod"><a class="footer__link_logo" href="#">
+                        <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+                    <div class="footer__text footer__text--desktop_mod">
+                      <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+                      <p>Company number: 14462289</p>
+                    </div>
+                  </div>
+                  <div class="footer__info_bottom">
+                    <div class="footer__social">
+                      <ul class="social_list">
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to tiktok">
+                            <svg class="icon icon_tiktok icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#tiktok"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to instagram">
+                            <svg class="icon icon_instagram icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to facebook">
+                            <svg class="icon icon_facebook icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to linkedin">
+                            <svg class="icon icon_linkedin icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to discord_2">
+                            <svg class="icon icon_discord_2 icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord_2"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to youtube">
+                            <svg class="icon icon_youtube icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#youtube"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to pinterest">
+                            <svg class="icon icon_pinterest icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#pinterest"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to x">
+                            <svg class="icon icon_x icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#x"></use>
+                            </svg></a></li>
+                      </ul>
+                    </div><a class="footer__status" href=" https://tradelle.crisp.watch/" target="_blank">
+                      <div class="footer__text_status">Tradelle Status</div></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col footer__col--nav_mod">
+                <nav class="footer__nav">
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Features</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">About Us</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Resources</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Pricing</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Affiliate</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copy">© All rights reserved</div>
+            <ul class="footer__legal_list">
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Terms of use</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Privacy Policy</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Cookie settings</a></li>
+            </ul>
+            <div class="footer__label">Made with
+              <div class="footer__icon">
+                <svg class="icon icon_heart icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                </svg>
+              </div>in London
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

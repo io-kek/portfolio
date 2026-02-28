@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="index">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Blog</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header js-header">
+      <div class="header__in"> 
+        <div class="header__row"> 
+          <div class="header__logo"> <a class="header__logo_link" href="#"><img class="header__img" src="images/logo_big.svg" alt="Tradelle - site logo"></a></div>
+          <div class="header__content"> 
+            <nav class="header__body">
+              <ul class="header_list"> 
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Why Tradelle?
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_fund-view icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#fund-view"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Hand-picked products</span><span class="header_sublist__text">Choose a profitable product</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_select icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#select"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product importer</span><span class="header_sublist__text">Import products in 1 click</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_sync icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#sync"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Automatic orders</span><span class="header_sublist__text">Automatically fulfill your orders</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_scan icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#scan"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Tracking number updates</span><span class="header_sublist__text">View order updates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Fulfillment by Tradelle</span><span class="header_sublist__text">Learn more about fulfillment</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_inbox icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#inbox"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product sourcing</span><span class="header_sublist__text">Details about product sourcing</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Resources
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_read icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#read"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Blog</span><span class="header_sublist__text">Latest Insights & Tips</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_user icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#user"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">About us</span><span class="header_sublist__text">Who We Are & Mission</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_appstore icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#appstore"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Templates</span><span class="header_sublist__text">Vast Library of Templates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_question icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#question"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Support</span><span class="header_sublist__text">Help & Troubleshooting</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_discord icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Discord Community</span><span class="header_sublist__text">Join Our Discord Family</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_dollar icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#dollar"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Affiliate program</span><span class="header_sublist__text">Earn With Us</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Pricing</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">About</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Blog</a>
+                </li>
+              </ul><a class="btn_base btn_mobile" href="#">Get Started for Free</a>
+            </nav>
+            <div class="header__buttons"> <a class="btn_v3 btn_mobile" href="#">Sign in</a><a class="btn_v1 btn_desktop" href="#">Log in </a><a class="btn_base btn_desktop" href="#">Get Started for Free</a></div>
+            <button class="header__menu_trigger js-header-menu-trigger" type="button" aria-label="Toggle menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="progress_bar js-progress-bar">
+      <div class="progress_bar__fill js-progress-bar-fill"></div>
+    </div>
+    <div class="wrapper js-wrapper">
+      <div class="base">
+        <section class="section hottest_articles hottest_articles--icon_end_mod">
+          <div class="section_in">
+            <div class="heading heading--layout_3_mod">
+              <div class="heading__title"><h1>Learn <strong>Dropshipping</strong> Here</h1></div>
+              <div class="heading__text"><p>Get new updates about the dropshipping industry</p></div>
+            </div><a class="back_button" href="javascript: history.go(-1)">&lt; Back</a>
+            <h2 class="hottest_articles__title"><span class="hottest_articles__title_icon hottest_articles__title_icon--start_mod">
+                <svg class="icon icon_hot icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#hot"></use>
+                </svg></span><span class="hottest_articles__title_text">Browse Hottest Articles</span><span class="hottest_articles__title_icon hottest_articles__title_icon--end_mod">
+                <svg class="icon icon_hot icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#hot"></use>
+                </svg></span></h2>
+            <ul class="articles__list" data>
+              <li class="articles__item">
+                <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/1.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/1_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/1.jpg" alt="Best Print On Demand Sites For A Thriving Online Business" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                    <div class="article_card__title">Best Print On Demand Sites For A Thriving Online Business</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="articles__item">
+                <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/2.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/2_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/2.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                    <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="articles__item">
+                <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/14.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/14_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/14.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                    <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="articles__item">
+                <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/14.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/14_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/14.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                    <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section posts">
+          <div class="section_in">
+            <h2 class="posts__title">All Posts</h2>
+            <div class="filters js-filters">
+              <div class="filters_in js-filters-wrap">
+                <div class="filters__input">
+                  <label class="form_input__label form_input__label--desktop_mod" for="search">Search</label>
+                  <div class="form_input__field form_input__field--icon_mod form_input__field--search_mod">
+                    <input class="form_input__element_v2" type="text" id="search" placeholder="Type to search">
+                  </div>
+                </div>
+                <div class="filters__selects js-filters-selects">
+                  <div class="filters__select filters__select--category_mod">
+                    <div class="filters__select_label">Category</div>
+                    <div class="filters__select_btn_w js-filter-wrapper">
+                      <button class="filters__select_btn js-category-filter-btn" data-filter="category">0 selected</button>
+                      <ul class="filters__select_list js-category-filter-list">
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="dropshipping-tips-trategies" data-title="Dropshipping Tips &amp; Strategies"><span class="form_checkbox__label_2">Dropshipping Tips & Strategies</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="marketing" data-title="Marketing"><span class="form_checkbox__label_2">Marketing</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="print-on-demand" data-title="Print on Demand"><span class="form_checkbox__label_2">Print on Demand</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="product-finding-best-sellers" data-title="Product Finding &amp; Best Sellers"><span class="form_checkbox__label_2">Product Finding & Best Sellers</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="success-stories-case-studies" data-title="Success Stories / Case Studies"><span class="form_checkbox__label_2">Success Stories / Case Studies</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_checkbox">
+                            <label class="form_checkbox__block">
+                              <input class="form_checkbox__element js-filters-checkbox" type="checkbox" name="suppliers-marketplaces" data-title="Suppliers / Marketplaces"><span class="form_checkbox__label_2">Suppliers / Marketplaces</span>
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="filters__select filters__select--showing_mod">
+                    <div class="filters__select_label">Showing by</div>
+                    <div class="filters__select_btn_w js-filter-wrapper">
+                      <button class="filters__select_btn js-showing-filter-btn" data-filter="showing">12</button>
+                      <ul class="filters__select_list js-showing-filter-list">
+                        <li class="filters__select_item">
+                          <div class="form_radio">
+                            <label class="form_radio__block" data-value="">
+                              <input class="form_radio__element js-filters-radio" type="radio" name="showing" value="6"><span class="form_radio__label_2">6</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_radio">
+                            <label class="form_radio__block" data-value="">
+                              <input class="form_radio__element js-filters-radio" type="radio" name="showing" checked value="12"><span class="form_radio__label_2">12</span>
+                            </label>
+                          </div>
+                        </li>
+                        <li class="filters__select_item">
+                          <div class="form_radio">
+                            <label class="form_radio__block" data-value="">
+                              <input class="form_radio__element js-filters-radio" type="radio" name="showing" value="24"><span class="form_radio__label_2">24</span>
+                            </label>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="filters__categories filters__categories--mobile_mod js-filters-categories">
+                    <div class="filters__categories_title">Selected</div>
+                    <ul class="filters__categories_list js-categories-filter-list"></ul>
+                  </div>
+                </div>
+                <button class="btn_v1 filters__btn filters__btn--mobile_mod js-filters-toggler" type="button" aria-label="toggle filters" data-open-state="Close filters" data-close-state="Filters"><span class="filters__btn_icon">
+                    <svg class="icon icon_filter icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#filter"></use>
+                    </svg></span><span class="js-filters-toggler-text">Filters</span></button>
+              </div>
+              <div class="filters__categories filters__categories--desktop_mod js-filters-categories">
+                <div class="filters__categories_title">Selected</div>
+                <ul class="filters__categories_list js-categories-filter-list"></ul>
+              </div>
+            </div>
+            <div class="posts__list">
+                      <ul class="articles__list" data>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/3.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/3_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/3.jpg" alt="Print On Demand 101: A Full Guide To A Successful Start" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                                      <div class="article_card__title">Print On Demand 101: A Full Guide To A Successful Start</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 14, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/4.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/4_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/4.jpg" alt="How To Increase eBay Sales – Top Strategies" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                                      <div class="article_card__title">How To Increase eBay Sales – Top Strategies</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 14, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/5.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/5_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/5.jpg" alt="The Best eBay Dropshipping Products To Sell This 2024" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                                      <div class="article_card__title">The Best eBay Dropshipping Products To Sell This 2024</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 14, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/6.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/6_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/6.jpg" alt="The Top 20 Print On Demand Products For Dropshipping In Canada" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                                      <div class="article_card__title">The Top 20 Print On Demand Products For Dropshipping In Canada</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 11, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/7.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/7_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/7.jpg" alt="Print On Demand Australia: How To Start? Best Products &amp; Suppliers" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                                      <div class="article_card__title">Print On Demand Australia: How To Start? Best Products &amp; Suppliers</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 11, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/8.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/8_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/8.jpg" alt="How To Increase eBay Sales – Top Strategies" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                                      <div class="article_card__title">How To Increase eBay Sales – Top Strategies</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 11, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/9.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/9_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/9.jpg" alt="Best Shopify Dropshipping Products For A Profitable 2024" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                                      <div class="article_card__title">Best Shopify Dropshipping Products For A Profitable 2024</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 3, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/10.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/10_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/10.jpg" alt="How To Create A Facebook Ad For Your Dropshipping Products: A Step-By-Step Guide" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                                      <div class="article_card__title">How To Create A Facebook Ad For Your Dropshipping Products: A Step-By-Step Guide</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 3, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/14.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/14_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/14.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                                      <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 3, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/11.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/11_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/11.jpg" alt="Best Products &amp; Suppliers To Dropship Party Supplies" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                                      <div class="article_card__title">Best Products &amp; Suppliers To Dropship Party Supplies</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 1, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/12.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/12_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/12.jpg" alt="How To Use TikTok Marketing To Scale Your Dropshipping Business" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                                      <div class="article_card__title">How To Use TikTok Marketing To Scale Your Dropshipping Business</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 1, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                        <li class="articles__item">
+                                  <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                                    <div class="article_card__media">
+                                      <picture class="article_card__pic">
+                                        <source media="(min-width: 480px)" srcset="images/articles/13.jpg" type="image/jpeg">
+                                        <source media="(max-width: 479px)" srcset="images/articles/13_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/13.jpg" alt="13 Types Of Dropshipping Ads To Boost Traffic &amp; Sales" loading="eager">
+                                      </picture>
+                                    </div>
+                                    <div class="article_card__content"><a class="article_card__category" href="#">Best Sellers</a>
+                                      <div class="article_card__title">13 Types Of Dropshipping Ads To Boost Traffic &amp; Sales</div>
+                                      <div class="article_card__text">
+                                        <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                                      </div>
+                                      <div class="article_card__info">
+                                        <div class="article_card__date"><span class="article_card__date_icon">
+                                            <svg class="icon icon_clock icon--size_mod">
+                                              <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                                            </svg></span><span class="article_card__date_text">Feb 1, 2024</span></div>
+                                        <div class="article_card__reading_time">18 min read</div>
+                                      </div>
+                                    </div>
+                                  </article>
+                        </li>
+                      </ul>
+            </div>
+            <div class="posts__info">
+              <div class="posts__result">
+                <p>Showing 12 results of 483</p>
+              </div>
+              <div class="posts__btn">
+                <button class="btn_v1" type="button">Show more</button>
+              </div>
+              <div class="posts__pagination">
+                <div class="pagination">
+                  <ul class="pagination__list">
+                    <li class="pagination__item pagination__item--prev_mod pagination__item--disabled_mod"><a class="pagination__link" href="#" aria-label="Previous page"><span class="pagination__link_icon">
+                          <svg class="icon icon_chevron_2 icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#chevron_2"></use>
+                          </svg></span></a></li>
+                    <li class="pagination__item pagination__item--active_mod"><a class="pagination__link" title="1" href="#" aria-label="Page 1">1</a></li>
+                    <li class="pagination__item"><a class="pagination__link" href="#" title="2" aria-label="Page 2">2</a></li>
+                    <li class="pagination__item pagination__item--dots_mod">
+                      <div class="pagination__link" aria-label="dots">&hellip;</div>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link" href="#" title="64" aria-label="Page 64">64</a></li>
+                    <li class="pagination__item"><a class="pagination__link" href="#" title="65" aria-label="Page 65">65</a></li>
+                    <li class="pagination__item pagination__item--next_mod"><a class="pagination__link" href="#" aria-label="Next page"><span class="pagination__link_icon">
+                          <svg class="icon icon_chevron_2 icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#chevron_2"></use>
+                          </svg></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="section_in">
+          <div class="footer__body">
+            <div class="footer__logo footer__logo--mobile_mod"><a class="footer__link_logo" href="#">
+                <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+            <div class="footer__text footer__text--mobile_mod">
+              <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+              <p>Company number: 14462289</p>
+            </div>
+            <div class="footer__row">
+              <div class="footer__col footer__col--info_mod">
+                <div class="footer__info_content">
+                  <div class="footer__info_top">
+                    <div class="footer__logo footer__logo--desktop_mod"><a class="footer__link_logo" href="#">
+                        <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+                    <div class="footer__text footer__text--desktop_mod">
+                      <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+                      <p>Company number: 14462289</p>
+                    </div>
+                  </div>
+                  <div class="footer__info_bottom">
+                    <div class="footer__social">
+                      <ul class="social_list">
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to tiktok">
+                            <svg class="icon icon_tiktok icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#tiktok"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to instagram">
+                            <svg class="icon icon_instagram icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to facebook">
+                            <svg class="icon icon_facebook icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to linkedin">
+                            <svg class="icon icon_linkedin icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to discord_2">
+                            <svg class="icon icon_discord_2 icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord_2"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to youtube">
+                            <svg class="icon icon_youtube icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#youtube"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to pinterest">
+                            <svg class="icon icon_pinterest icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#pinterest"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to x">
+                            <svg class="icon icon_x icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#x"></use>
+                            </svg></a></li>
+                      </ul>
+                    </div><a class="footer__status" href=" https://tradelle.crisp.watch/" target="_blank">
+                      <div class="footer__text_status">Tradelle Status</div></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col footer__col--nav_mod">
+                <nav class="footer__nav">
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Features</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">About Us</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Resources</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Pricing</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Affiliate</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copy">© All rights reserved</div>
+            <ul class="footer__legal_list">
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Terms of use</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Privacy Policy</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Cookie settings</a></li>
+            </ul>
+            <div class="footer__label">Made with
+              <div class="footer__icon">
+                <svg class="icon icon_heart icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                </svg>
+              </div>in London
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

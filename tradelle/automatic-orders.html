@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="index">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Automatic orders</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header js-header">
+      <div class="header__in"> 
+        <div class="header__row"> 
+          <div class="header__logo"> <a class="header__logo_link" href="#"><img class="header__img" src="images/logo_big.svg" alt="Tradelle - site logo"></a></div>
+          <div class="header__content"> 
+            <nav class="header__body">
+              <ul class="header_list"> 
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Why Tradelle?
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_fund-view icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#fund-view"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Hand-picked products</span><span class="header_sublist__text">Choose a profitable product</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_select icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#select"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product importer</span><span class="header_sublist__text">Import products in 1 click</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_sync icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#sync"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Automatic orders</span><span class="header_sublist__text">Automatically fulfill your orders</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_scan icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#scan"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Tracking number updates</span><span class="header_sublist__text">View order updates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Fulfillment by Tradelle</span><span class="header_sublist__text">Learn more about fulfillment</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_inbox icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#inbox"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product sourcing</span><span class="header_sublist__text">Details about product sourcing</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Resources
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_read icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#read"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Blog</span><span class="header_sublist__text">Latest Insights & Tips</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_user icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#user"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">About us</span><span class="header_sublist__text">Who We Are & Mission</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_appstore icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#appstore"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Templates</span><span class="header_sublist__text">Vast Library of Templates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_question icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#question"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Support</span><span class="header_sublist__text">Help & Troubleshooting</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_discord icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Discord Community</span><span class="header_sublist__text">Join Our Discord Family</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_dollar icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#dollar"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Affiliate program</span><span class="header_sublist__text">Earn With Us</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Pricing</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">About</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Blog</a>
+                </li>
+              </ul><a class="btn_base btn_mobile" href="#">Get Started for Free</a>
+            </nav>
+            <div class="header__buttons"> <a class="btn_v3 btn_mobile" href="#">Sign in</a><a class="btn_v1 btn_desktop" href="#">Log in </a><a class="btn_base btn_desktop" href="#">Get Started for Free</a></div>
+            <button class="header__menu_trigger js-header-menu-trigger" type="button" aria-label="Toggle menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="progress_bar js-progress-bar">
+      <div class="progress_bar__fill js-progress-bar-fill"></div>
+    </div>
+    <div class="wrapper js-wrapper">
+      <div class="base">
+        <section class="section hero_v2 hero_v2--v8_mod">
+          <div class="section_in">
+            <div class="hero_v2__body">
+              <div class="hero_v2__row">
+                <div class="hero_v2__column">
+                  <div class="hero_v2__content">
+                    <div class="heading heading--layout_3_mod">
+                      <div class="heading__title"><h1>Automated order fulfillment</h1></div>
+                      <div class="heading__text"><p>Orders are automatically processed, fulfilled, and shipped once payment is received.</p></div>
+                    </div>
+                    <div class="hero_v2__wrap">
+                      <div class="hero_v2__buttons"><a class="btn_base" href="#">Get Started for Free</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero_v2__column">
+                  <picture class="hero_v2__picture">
+                    <source media="(min-width: 768px)" srcset="images/hero/orders.png" type="image/png">
+                    <source media="(max-width: 767px)" srcset="images/hero/orders-mob.png" type="image/png"><img class="hero_v2__img" src="images/hero/orders.png" alt="products table" loading="lazy">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section automate_store">
+          <div class="section_in">
+            <div class="heading">
+              <div class="heading__subtitle">Dropship easily</div>
+              <div class="heading__title"><h2>Automate your Store with Fulfillment by Tradelle</h2></div>
+            </div>
+            <div class="automate_store__body">
+              <ul class="automate_store__row">
+                <li class="automate_store__col">
+                  <div class="automate_store__icon-w">
+                    <svg class="icon icon_arrow_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                    </svg>
+                  </div>
+                  <div class="automate_store__body_content">
+                    <picture class="automate_store__img_w">
+                      <source srcset="images/automate_store/steps_1.png" type="image/png"><img class="automate_store__img_in" src="images/automate_store/steps_1.png" alt="Select and add" loading="lazy">
+                    </picture>
+                    <div class="automate_store__content">
+                      <h3 class="automate_store__title">Select and add</h3>
+                      <div class="automate_store__text">
+                        <p>Select a winning product and import to your Shopify store</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="automate_store__col">
+                  <div class="automate_store__icon-w">
+                    <svg class="icon icon_arrow_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                    </svg>
+                  </div>
+                  <div class="automate_store__body_content">
+                    <picture class="automate_store__img_w">
+                      <source srcset="images/automate_store/steps_2.png" type="image/png"><img class="automate_store__img_in" src="images/automate_store/steps_2.png" alt="Automatic shipment" loading="lazy">
+                    </picture>
+                    <div class="automate_store__content">
+                      <h3 class="automate_store__title">Automatic shipment</h3>
+                      <div class="automate_store__text">
+                        <p>We will fulfill and ship an order automatically</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="automate_store__col">
+                  <div class="automate_store__icon-w">
+                    <svg class="icon icon_arrow_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                    </svg>
+                  </div>
+                  <div class="automate_store__body_content">
+                    <picture class="automate_store__img_w">
+                      <source srcset="images/automate_store/steps_3.png" type="image/png"><img class="automate_store__img_in" src="images/automate_store/steps_3.png" alt="Instant response" loading="lazy">
+                    </picture>
+                    <div class="automate_store__content">
+                      <h3 class="automate_store__title">Instant response</h3>
+                      <div class="automate_store__text">
+                        <p>You will be automatically notified when tracking number added</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="automate_store__col">
+                  <div class="automate_store__icon-w">
+                    <svg class="icon icon_arrow_right icon--size_mod">
+                      <use xlink:href="images/sprite/sprite.svg#arrow_right"></use>
+                    </svg>
+                  </div>
+                  <div class="automate_store__body_content">
+                    <picture class="automate_store__img_w">
+                      <source srcset="images/automate_store/steps_4.png" type="image/png"><img class="automate_store__img_in" src="images/automate_store/steps_4.png" alt="Order Received" loading="lazy">
+                    </picture>
+                    <div class="automate_store__content">
+                      <h3 class="automate_store__title">Order Received</h3>
+                      <div class="automate_store__text">
+                        <p>Your customer will receive the product in 7 to 10 days</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="automate_store__btn_block"><a class="btn_base" href="#">Get Started for Free</a></div>
+          </div>
+        </section>
+        <section class="section feature feature--reverse_mod">
+          <div class="section_in">
+            <div class="feature__row">
+              <div class="feature__column feature__column--image_mod">
+                <picture class="feature__img_w">
+                  <source media="(min-width: 768px)" srcset="images/feature/orders.png" type="image/png">
+                  <source media="(max-width: 767px)" srcset="images/feature/orders_mob.png" type="image/png"><img class="feature__img_in" src="images/feature/orders.png" alt="some image" loading="eager">
+                </picture>
+              </div>
+              <div class="feature__column feature__column--content_mod">
+                <div class="feature__content">
+                  <div class="heading">
+                    <div class="heading__subtitle">Automated Order Processing</div>
+                    <div class="heading__title"><h2>24-Hour Order Processing</h2></div>
+                    <div class="heading__text"><p>Orders spring into action within 24 hours after payment confirmation, promising a quick and efficient processing experience for your customers.</p></div>
+                  </div>
+                  <div class="feature__btn_w"><a class="btn_base" href="#">Get Started for Free</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section feature">
+          <div class="section_in">
+            <div class="feature__row">
+              <div class="feature__column feature__column--image_mod">
+                <picture class="feature__img_w">
+                  <source media="(min-width: 768px)" srcset="images/feature/streamlined.png" type="image/png">
+                  <source media="(max-width: 767px)" srcset="images/feature/streamlined_mob.png" type="image/png"><img class="feature__img_in" src="images/feature/streamlined.png" alt="some image" loading="eager">
+                </picture>
+              </div>
+              <div class="feature__column feature__column--content_mod">
+                <div class="feature__content">
+                  <div class="heading">
+                    <div class="heading__subtitle">Payment Mechanics</div>
+                    <div class="heading__title"><h2>Streamlined Payment Process</h2></div>
+                    <div class="heading__text"><p>Funds are seamlessly deducted using your preconfigured payment method, only after your customer's payment has been successfully received.</p></div>
+                  </div>
+                  <div class="feature__btn_w"><a class="btn_base" href="#">Get Started for Free</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section feature feature--reverse_mod">
+          <div class="section_in">
+            <div class="feature__row">
+              <div class="feature__column feature__column--image_mod">
+                <picture class="feature__img_w">
+                  <source media="(min-width: 768px)" srcset="images/feature/updates.png" type="image/png">
+                  <source media="(max-width: 767px)" srcset="images/feature/updates_mob.png" type="image/png"><img class="feature__img_in" src="images/feature/updates.png" alt="some image" loading="eager">
+                </picture>
+              </div>
+              <div class="feature__column feature__column--content_mod">
+                <div class="feature__content">
+                  <div class="heading">
+                    <div class="heading__subtitle">automated updates</div>
+                    <div class="heading__title"><h2>Keeping Customers Informed: Tracking Updates</h2></div>
+                    <div class="heading__text"><p>Upon receiving tracking information, customers are promptly notified via Shopify, keeping them informed and engaged.</p></div>
+                  </div>
+                  <div class="feature__btn_w"><a class="btn_base" href="#">Get Started for Free</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section values values--v2_mod">
+          <div class="section_in">
+            <div class="heading">
+              <div class="heading__subtitle">In tradelle we trust</div>
+              <div class="heading__title"><h2>Benefits</h2></div>
+            </div>
+            <ul class="values__list">
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_thunderbolt icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#thunderbolt"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Fast Order Processing</h3>
+                  <div class="feature_card__text">
+                    <p>Orders are quickly handled within 24 hours of payment, ensuring your customers don't have to wait long for their purchases.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_credit-card icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#credit-card"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Hassle-Free Payments</h3>
+                  <div class="feature_card__text">
+                    <p>Payments are smooth and automatic. We only proceed once your customer has paid, making the process secure and reliable for you.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_control icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#control"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Set It and Forget It</h3>
+                  <div class="feature_card__text">
+                    <p>With Tradelle's automated system, listing a product in your store is all you need to do - we handle the rest. Spend less time on tasks and more time expanding your business.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_bag-2 icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#bag-2"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Auto-Shipping</h3>
+                  <div class="feature_card__text">
+                    <p>As soon as an order is placed, we automatically start the shipping process. You don't need to do anything; we've got it covered.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_bell-2 icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#bell-2"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Stay Updated</h3>
+                  <div class="feature_card__text">
+                    <p>You'll always know what's happening with an order. We notify you the moment a tracking number is available, keeping you in the loop without any extra effort.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="values__item">
+                <div class="feature_card">
+                  <div class="feature_card__icon">
+                    <div class="colored_icon">
+                      <svg class="icon icon_smile-3 icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#smile-3"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <h3 class="feature_card__title">Happy Customers, Quickly</h3>
+                  <div class="feature_card__text">
+                    <p>Your customers will get their products fast, usually within 6 to 10 days, leading to a great shopping experience and potentially more repeat business for you.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="section_in">
+          <div class="footer__body">
+            <div class="footer__logo footer__logo--mobile_mod"><a class="footer__link_logo" href="#">
+                <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+            <div class="footer__text footer__text--mobile_mod">
+              <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+              <p>Company number: 14462289</p>
+            </div>
+            <div class="footer__row">
+              <div class="footer__col footer__col--info_mod">
+                <div class="footer__info_content">
+                  <div class="footer__info_top">
+                    <div class="footer__logo footer__logo--desktop_mod"><a class="footer__link_logo" href="#">
+                        <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+                    <div class="footer__text footer__text--desktop_mod">
+                      <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+                      <p>Company number: 14462289</p>
+                    </div>
+                  </div>
+                  <div class="footer__info_bottom">
+                    <div class="footer__social">
+                      <ul class="social_list">
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to tiktok">
+                            <svg class="icon icon_tiktok icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#tiktok"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to instagram">
+                            <svg class="icon icon_instagram icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to facebook">
+                            <svg class="icon icon_facebook icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to linkedin">
+                            <svg class="icon icon_linkedin icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to discord_2">
+                            <svg class="icon icon_discord_2 icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord_2"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to youtube">
+                            <svg class="icon icon_youtube icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#youtube"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to pinterest">
+                            <svg class="icon icon_pinterest icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#pinterest"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to x">
+                            <svg class="icon icon_x icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#x"></use>
+                            </svg></a></li>
+                      </ul>
+                    </div><a class="footer__status" href=" https://tradelle.crisp.watch/" target="_blank">
+                      <div class="footer__text_status">Tradelle Status</div></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col footer__col--nav_mod">
+                <nav class="footer__nav">
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Features</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">About Us</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Resources</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Pricing</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Affiliate</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copy">© All rights reserved</div>
+            <ul class="footer__legal_list">
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Terms of use</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Privacy Policy</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Cookie settings</a></li>
+            </ul>
+            <div class="footer__label">Made with
+              <div class="footer__icon">
+                <svg class="icon icon_heart icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                </svg>
+              </div>in London
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>

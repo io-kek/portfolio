@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en" data-template-name="article">
+  <head>
+    <meta charset="UTF-8">
+    <title>development | Article</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link href="css/app.css" rel="stylesheet"></head>
+  <body>
+    <header class="header js-header">
+      <div class="header__in"> 
+        <div class="header__row"> 
+          <div class="header__logo"> <a class="header__logo_link" href="#"><img class="header__img" src="images/logo_big.svg" alt="Tradelle - site logo"></a></div>
+          <div class="header__content"> 
+            <nav class="header__body">
+              <ul class="header_list"> 
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Why Tradelle?
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_fund-view icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#fund-view"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Hand-picked products</span><span class="header_sublist__text">Choose a profitable product</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_select icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#select"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product importer</span><span class="header_sublist__text">Import products in 1 click</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_sync icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#sync"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Automatic orders</span><span class="header_sublist__text">Automatically fulfill your orders</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_scan icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#scan"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Tracking number updates</span><span class="header_sublist__text">View order updates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_cart icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#cart"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Fulfillment by Tradelle</span><span class="header_sublist__text">Learn more about fulfillment</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_inbox icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#inbox"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Product sourcing</span><span class="header_sublist__text">Details about product sourcing</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item header__item--submenu_mod js-header-submenu">
+                  <button class="header__link js-header-submenu-trigger" type="button"><span class="header__icon">
+                      <svg class="icon icon_chevron icon--size_mod">
+                        <use xlink:href="images/sprite/sprite.svg#chevron"></use>
+                      </svg></span>Resources
+                  </button>
+                  <div class="header__submenu js-header-submenu-content">
+                    <ul class="header_sublist">
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_read icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#read"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Blog</span><span class="header_sublist__text">Latest Insights & Tips</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_user icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#user"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">About us</span><span class="header_sublist__text">Who We Are & Mission</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_appstore icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#appstore"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Templates</span><span class="header_sublist__text">Vast Library of Templates</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_question icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#question"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Support</span><span class="header_sublist__text">Help & Troubleshooting</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_discord icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Discord Community</span><span class="header_sublist__text">Join Our Discord Family</span></span></a></li>
+                      <li class="header_sublist__item"><a class="header_sublist__link" href="#"><span class="header_sublist__icon">
+                            <svg class="icon icon_dollar icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#dollar"></use>
+                            </svg></span><span class="header_sublist__wrap"><span class="header_sublist__title">Affiliate program</span><span class="header_sublist__text">Earn With Us</span></span></a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Pricing</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">About</a>
+                </li>
+                <li class="header__item"><a class="header__link" href="#">Blog</a>
+                </li>
+              </ul><a class="btn_base btn_mobile" href="#">Get Started for Free</a>
+            </nav>
+            <div class="header__buttons"> <a class="btn_v3 btn_mobile" href="#">Sign in</a><a class="btn_v1 btn_desktop" href="#">Log in </a><a class="btn_base btn_desktop" href="#">Get Started for Free</a></div>
+            <button class="header__menu_trigger js-header-menu-trigger" type="button" aria-label="Toggle menu"><span></span></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="progress_bar js-progress-bar">
+      <div class="progress_bar__fill js-progress-bar-fill"></div>
+    </div>
+    <div class="wrapper js-wrapper">
+      <div class="base">
+        <section class="section article js-article">
+          <div class="section_in"> 
+            <div class="article__row"> 
+              <div class="article__column">
+                <aside class="article__aside js-article-aside">
+                  <div class="article__label">Outline</div>
+                  <nav class="article__nav">
+                    <ul class="article__list js-article-list"></ul>
+                  </nav>
+                </aside>
+              </div>
+              <div class="article__column">
+                <div class="article__footer"> 
+                          <div class="bread_crumbs">
+                            <ul class="bread_crumbs__list">
+                              <li class="bread_crumbs__item"><a class="bread_crumbs__link" href="#">Home</a>
+                              </li>
+                              <li class="bread_crumbs__item">
+                                <div class="bread_crumbs__link">Blog</div>
+                              </li>
+                            </ul>
+                          </div>
+                  <h1 class="article__title wp-block-heading" id="key_takeaways">Supplement Dropshipping: Top 5 Suppliers & Everything You Need To Know</h1>
+                  <div class="article__text">18 minute read • Published: February 16, 2024</div>
+                  <div class="article_content">
+                    <figure><img src="images/article.jpg" alt="products illustration" data-fancybox data-caption="There can be image description"></figure><br>
+                            <div class="article_banner article_banner--mobile_mod">
+                              <div class="article_banner__row"><img class="article_banner__img" src="images/color-logo.svg" alt="site logo">
+                                <div class="article_banner__column">
+                                  <div class="article_banner__title">Try Dropship</div>
+                                  <div class="article_banner__text">Discover and Source Products Efficiently. Save Time and Make Smart Choices.</div>
+                                </div>
+                              </div><a class="btn_base" href="#">Get Started for Free</a>
+                            </div>
+                    <p>The supplement market has seen significant growth. And is expected to keep growing. But it can be a complicated market to navigate. Due to the legal regulations. </p>
+                    <p>We’ve explored the supplement market in depth and found everything there is to know.</p>
+                    <p>If you’re not sure if the supplement market is right for you, keep reading, and we’ll help you decide.</p>
+                    <p>Let’s get into it.</p><br>
+                            <div class="key_features">
+                              <div class="key_features__title">Key Takeaways</div>
+                              <ul class="key_features__list">
+                                <li class="key_features__item">Effective dropship inventory management ensures accurate stock levels, preventing stock shortages and fostering customer trust by displaying available products.</li>
+                                <li class="key_features__item">Synchronizing supplier inventory data with your store is the core of dropship inventory management, enabling real-time updates and accurate product information.</li>
+                                <li class="key_features__item">Best practices include automation tools, supporting multiple stores, tracking sales performance, setting inventory minimums, and working with diverse suppliers.</li>
+                                <li class="key_features__item">Keeping inventory is unnecessary in dropshipping but can be beneficial in specific scenarios. Here lies the importance of automation for efficient inventory management.</li>
+                              </ul><a class="btn_base" href="#">Start Now For $1</a>
+                            </div><br>
+                    <h3 class="wp-block-heading" id="best_supplements">Best Supplement Dropshipping Suppliers</h3>
+                    <p>A reliable and efficient supplier is vital to successfully selling supplements. </p>
+                    <p>The supplier must comply with all of the regulations and laws required to sell supplements. </p>
+                    <p>This might include labeling, being safe for consumption, and manufacturing practices.</p>
+                    <p>We’ve created a list of reputable suppliers. However, make sure to check that the supplier can comply with the laws and regulations for your location.</p>
+                    <p><em>Disclaimer: While we’ve done everything possible to ensure the information in this article is accurate and correct, we are not legal professionals. The information in this article is based on our own research and experience. Before selling dietary supplements, seek professional legal advice.</em></p><br>
+                    <h3 class="wp-block-heading" id="can_dropship_supplements"><a href="#" target="_blank">Nutribl</a> - Best for UK Sellers</h3>
+                    <figure><img src="images/article_placeholder.jpg" alt="products illustration" loading="lazy" data-fancybox></figure>
+                    <p>Nutribl is a private-label supplement company. It is a UK developer and producer of supplements.</p>
+                    <p>They sell a range of supplements. Including the following:</p>
+                    <ul> 
+                      <li>Amino Acids</li>
+                      <li>Anti Oxidants</li>
+                      <li>Bone Health</li>
+                      <li>Collagen</li>
+                      <li>Detox</li>
+                      <li>Energy</li>
+                      <li>Friendly Bacteria</li>
+                      <li>Heart Support</li>
+                      <li>Herbs</li>
+                      <li>Immune Support</li>
+                      <li>Over 50s</li>
+                      <li>Protein</li>
+                      <li>Pet Nutrition</li>
+                      <li>And many more</li>
+                    </ul>
+                    <p>You can choose which supplements you want to dropship and add them to your dropshipping store. </p>
+                    <p>Nutribl allows you to design your own labels for the supplements. You can also work with a Nutribl designer to help you create a label.</p><br>
+                    <h4 class="wp-block-heading" id="should_dropship_supplements">What We Like About Nutribl:</h4>
+                    <ul> 
+                      <li>Allows you to design custom labels. This can help increase your brand identity and help establish yourself in the supplement industry. </li>
+                      <li>Quick processing and shipping time.</li>
+                      <li>Nutribl facilitates dropshipping. So, you can sell one item at a time, and Nutribl will ship them directly to your customers. </li>
+                      <li>Meets all UK supplement standards and has the necessary certificates required to sell.</li>
+                      <li>Can create custom supplement formulas with the Nutribl team</li>
+                    </ul><br>
+                    <h4 class="wp-block-heading" id="which_supplements">Which Supplements Should I Dropship?</h4>
+                    <ol> 
+                      <li>Allows you to design custom labels. This can help increase your brand identity and help establish yourself in the supplement industry. </li>
+                      <li>Quick processing and shipping time.</li>
+                      <li>Nutribl facilitates dropshipping. So, you can sell one item at a time, and Nutribl will ship them directly to your customers. </li>
+                      <li>Meets all UK supplement standards and has the necessary certificates required to sell.</li>
+                      <li>Can create custom supplement formulas with the Nutribl team</li>
+                    </ol><br>
+                    <h4 class="wp-block-heading" id="start_business">How to Start a Supplement Dropshipping Business  </h4>
+                    <p>A reliable and efficient supplier is vital to successfully selling supplements. </p>
+                    <p>The supplier must comply with all of the regulations and laws required to sell supplements. </p>
+                    <p>This might include labeling, being safe for consumption, and manufacturing practices.</p><br>
+                    <h4 class="wp-block-heading" id="dropshipping">Dropshipping Supplements Across the World</h4>
+                    <p>A reliable and efficient supplier is vital to successfully selling supplements. </p>
+                    <p>The supplier must comply with all of the regulations and laws required to sell supplements. </p>
+                    <p>This might include labeling, being safe for consumption, and manufacturing practices.</p><br>
+                    <h5 class="wp-block-heading" id="faq">Frequently Asked Questions</h5>
+                    <p>A reliable and efficient supplier is vital to successfully selling supplements. </p>
+                    <p>The supplier must comply with all of the regulations and laws required to sell supplements. </p>
+                    <blockquote>Allows you to design custom labels. This can help increase your brand identity and help establish yourself in the supplement industry. </blockquote>
+                    <p>This might include labeling, being safe for consumption, and manufacturing practices.</p><br>
+                    <hr><br>
+                    <h6 class="wp-block-heading" id="final">Final Thoughts</h6>
+                    <p>A reliable and efficient supplier is vital to successfully selling supplements. </p>
+                    <p>The supplier must comply with all of the regulations and laws required to sell supplements. </p>
+                    <p>This might include labeling, being safe for consumption, and manufacturing practices.</p>
+                            <div class="article_banner article_banner--mobile_mod">
+                              <div class="article_banner__row"><img class="article_banner__img" src="images/color-logo.svg" alt="site logo">
+                                <div class="article_banner__column">
+                                  <div class="article_banner__title">Try Dropship</div>
+                                  <div class="article_banner__text">Discover and Source Products Efficiently. Save Time and Make Smart Choices.</div>
+                                </div>
+                              </div><a class="btn_base" href="#">Get Started for Free</a>
+                            </div>
+                  </div>
+                  <div class="article_footer">
+                    <div class="article_footer__wrap"> 
+                      <picture class="article_footer__picture">
+                        <source srcset="images/placeholder.png" type="image/png"><img class="article_footer__img" src="images/placeholder.png" alt="placeholder image" loading="lazy">
+                      </picture>
+                      <div class="article_footer__info"> 
+                        <div class="article_footer__name">Carrie Miller</div>
+                        <div class="article_footer__position">Principal Brand Evangelist</div>
+                      </div>
+                    </div>
+                    <div class="article_footer__share"> 
+                      <div class="article_footer__label">Share:</div><a class="article_footer__link js-copy-current-url" href="#" target="_blank" aria-label="social link">
+                        <div class="article_footer__icon"> 
+                          <svg class="icon icon_link icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#link"></use>
+                          </svg>
+                        </div></a><a class="article_footer__link" href="#" target="_blank" aria-label="social link">
+                        <div class="article_footer__icon"> 
+                          <svg class="icon icon_linkedin_2 icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#linkedin_2"></use>
+                          </svg>
+                        </div></a><a class="article_footer__link" href="#" target="_blank" aria-label="social link">
+                        <div class="article_footer__icon"> 
+                          <svg class="icon icon_facebook_2 icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#facebook_2"></use>
+                          </svg>
+                        </div></a><a class="article_footer__link" href="#" target="_blank" aria-label="social link">
+                        <div class="article_footer__icon"> 
+                          <svg class="icon icon_x icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#x"></use>
+                          </svg>
+                        </div></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="article__column">
+                <aside class="article__aside js-article-aside">
+                          <div class="article_banner">
+                            <div class="article_banner__row"><img class="article_banner__img" src="images/color-logo.svg" alt="site logo">
+                              <div class="article_banner__column">
+                                <div class="article_banner__title">Try Tradelle</div>
+                                <div class="article_banner__text">Discover and Source Products Efficiently. Save Time and Make Smart Choices.</div>
+                              </div>
+                            </div><a class="btn_base" href="#">Get Started for Free</a>
+                          </div>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section hottest_articles hottest_articles--icon_start_mod">
+          <div class="section_in">
+            <h2 class="hottest_articles__title"><span class="hottest_articles__title_icon hottest_articles__title_icon--start_mod">
+                <svg class="icon icon_hot icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#hot"></use>
+                </svg></span><span class="hottest_articles__title_text">Browse Hottest Articles</span><span class="hottest_articles__title_icon hottest_articles__title_icon--end_mod">
+                <svg class="icon icon_hot icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#hot"></use>
+                </svg></span></h2>
+            <ul class="articles__list" data>
+              <li class="articles__item">
+                <article class="article_card" data-category="0"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/1.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/1_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/1.jpg" alt="Best Print On Demand Sites For A Thriving Online Business" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Print on demand</a>
+                    <div class="article_card__title">Best Print On Demand Sites For A Thriving Online Business</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="articles__item">
+                <article class="article_card" data-category="1"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/2.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/2_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/2.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Marketing</a>
+                    <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="articles__item">
+                <article class="article_card" data-category="2"><a class="article_card__link" href="#"> </a>
+                  <div class="article_card__media">
+                    <picture class="article_card__pic">
+                      <source media="(min-width: 480px)" srcset="images/articles/3.jpg" type="image/jpeg">
+                      <source media="(max-width: 479px)" srcset="images/articles/3_mob.jpg" type="image/jpeg"><img class="article_card__img" src="images/articles/3.jpg" alt="How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools" loading="eager">
+                    </picture>
+                  </div>
+                  <div class="article_card__content"><a class="article_card__category" href="#">Product Finding &amp; Best Sellers</a>
+                    <div class="article_card__title">How To Market Your Shopify Store: Tips, Tricks &amp; Best Tools</div>
+                    <div class="article_card__text">
+                      <p>Best Print On Demand Sites For A Thriving Online Business</p>
+                    </div>
+                    <div class="article_card__info">
+                      <div class="article_card__date"><span class="article_card__date_icon">
+                          <svg class="icon icon_clock icon--size_mod">
+                            <use xlink:href="images/sprite/sprite.svg#clock"></use>
+                          </svg></span><span class="article_card__date_text">Feb 16, 2024</span></div>
+                      <div class="article_card__reading_time">18 min read</div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section cta cta--subscribe_mod">
+          <div class="section_in">
+            <div class="cta__card">
+              <picture class="cta__pic">
+                <source media="(min-width: 768px)" srcset="images/cta/bg_subscribe.jpg" type="image/jpeg">
+                <source media="(max-width: 767px)" srcset="images/cta/bg_subscribe_mob.jpg" type="image/jpeg"><img class="cta__img" src="images/cta/bg_subscribe.jpg" alt="some image" loading="lazy">
+              </picture>
+              <div class="cta__content">
+                <h2 class="cta__title">Subscribe to Tradelle Blog</h2>
+                <div class="cta__text"><p>Get the latest posts in your email</p>
+                </div>
+                <div class="cta__form-w">
+                  <form action="#">
+                    <div class="form_input form_input--full_mod">
+                      <div class="form_input__field">
+                        <input class="form_input__element" type="email" id="subscribe_email" placeholder="Enter your email" required="email" title="field for entering e-mail">
+                      </div>
+                    </div>
+                    <button class="btn_base cta__btn" type="submit">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="section_in">
+          <div class="footer__body">
+            <div class="footer__logo footer__logo--mobile_mod"><a class="footer__link_logo" href="#">
+                <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+            <div class="footer__text footer__text--mobile_mod">
+              <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+              <p>Company number: 14462289</p>
+            </div>
+            <div class="footer__row">
+              <div class="footer__col footer__col--info_mod">
+                <div class="footer__info_content">
+                  <div class="footer__info_top">
+                    <div class="footer__logo footer__logo--desktop_mod"><a class="footer__link_logo" href="#">
+                        <div class="footer__logo_img_w"><img class="footer__logo_img_in" src="images/logo_big.svg" alt="logo"></div></a></div>
+                    <div class="footer__text footer__text--desktop_mod">
+                      <p>Tradelle Research Ltd, 71-75 Shelton Street, Covent Garden, WC2H 9JQ, London, United Kingdom</p>
+                      <p>Company number: 14462289</p>
+                    </div>
+                  </div>
+                  <div class="footer__info_bottom">
+                    <div class="footer__social">
+                      <ul class="social_list">
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to tiktok">
+                            <svg class="icon icon_tiktok icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#tiktok"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to instagram">
+                            <svg class="icon icon_instagram icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#instagram"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to facebook">
+                            <svg class="icon icon_facebook icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to linkedin">
+                            <svg class="icon icon_linkedin icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to discord_2">
+                            <svg class="icon icon_discord_2 icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#discord_2"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to youtube">
+                            <svg class="icon icon_youtube icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#youtube"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to pinterest">
+                            <svg class="icon icon_pinterest icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#pinterest"></use>
+                            </svg></a></li>
+                        <li class="social_item"><a class="social_link" href="#" target="_blank" aria-label="link to x">
+                            <svg class="icon icon_x icon--size_mod">
+                              <use xlink:href="images/sprite/sprite.svg#x"></use>
+                            </svg></a></li>
+                      </ul>
+                    </div><a class="footer__status" href=" https://tradelle.crisp.watch/" target="_blank">
+                      <div class="footer__text_status">Tradelle Status</div></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__col footer__col--nav_mod">
+                <nav class="footer__nav">
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Features</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Company</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">About Us</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Resources</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Pricing</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Affiliate</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer__col_nav">
+                    <h3 class="footer__title">Support</h3>
+                    <ul class="footer__nav_list">
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Contact</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Live chat</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">FAQ</a></li>
+                      <li class="footer__nav_item"><a class="footer__nav_link" href="#">Tutorials</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__copy">© All rights reserved</div>
+            <ul class="footer__legal_list">
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Terms of use</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Privacy Policy</a></li>
+              <li class="footer__legal_item"><a class="footer__legal_link" href="#">Cookie settings</a></li>
+            </ul>
+            <div class="footer__label">Made with
+              <div class="footer__icon">
+                <svg class="icon icon_heart icon--size_mod">
+                  <use xlink:href="images/sprite/sprite.svg#heart"></use>
+                </svg>
+              </div>in London
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  <script defer src="js/runtime.js"></script><script defer src="js/app.js"></script></body>
+</html>
