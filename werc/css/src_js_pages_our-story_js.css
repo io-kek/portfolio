@@ -1,0 +1,318 @@
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/innovation.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.vertical_line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .vertical_line {
+    left: -8.9rem;
+    bottom: 4.4rem;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .vertical_line {
+    left: -2.3rem;
+  }
+}
+
+.vertical_line__line {
+  width: 3px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.vertical_line--dark_mod .vertical_line__line {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.vertical_line__dot {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.vertical_line__dot:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  background-color: #141313;
+}
+.vertical_line--dark_mod .vertical_line__dot {
+  background-color: #fff;
+}
+.vertical_line--dark_mod .vertical_line__dot::before {
+  background-color: #141313;
+}
+
+.vertical_line__start {
+  top: 0;
+}
+.vertical_line__start:before {
+  top: 1.5rem;
+}
+
+.vertical_line__end {
+  bottom: 0;
+}
+.vertical_line__end:before {
+  bottom: 1.5rem;
+}
+
+.innovation {
+  background-color: #000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.innovation__title {
+  margin: 0 auto;
+  max-width: 103.8rem;
+  font-size: 11.5rem;
+  font-weight: 400;
+  line-height: 98%;
+  color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 1023.5px) {
+  .innovation__title {
+    padding: 0 2rem;
+    font-size: 7.1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .innovation__title {
+    max-width: 32.6rem;
+    text-align: start;
+  }
+}
+
+.innovation__play {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  display: none;
+  width: 3.3rem;
+  height: 2.3rem;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+@media screen and (max-width: 640px) {
+  .innovation__play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.innovation__play::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.6rem 0 0.6rem 1.1rem;
+  border-color: transparent transparent transparent #fff;
+  border-radius: 2px;
+  transition: border-color 0.3s ease-in-out;
+}
+.innovation__play:hover::before {
+  border-color: transparent transparent transparent #dce161;
+}
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/story-hero.scss ***!
+  \**************************************************************************************************************************************************************************************/
+.story_hero__in {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.story_hero .vertical_line {
+  left: -2.3%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+}
+@media screen and (max-width: 1300px) {
+  .story_hero .vertical_line {
+    left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .story_hero .vertical_line {
+    top: 0%;
+    transform: translateY(0);
+    left: -2.3rem;
+    height: 100%;
+  }
+}
+.story_hero--light_mod .vertical_line__line {
+  background-color: rgba(33, 33, 33, 0.3);
+}
+.story_hero--light_mod .vertical_line__dot {
+  background-color: #212121;
+}
+.story_hero--light_mod .vertical_line__start::before, .story_hero--light_mod .vertical_line__end::before {
+  background-color: #f8f8f8;
+}
+@media screen and (max-width: 1023.5px) {
+  .story_hero--light_mod .vertical_line {
+    display: none;
+  }
+}
+.story_hero--dark_mod .vertical_line__dot {
+  background-color: #fff;
+}
+.story_hero--dark_mod .vertical_line__line {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.story_hero--dark_mod .vertical_line__start::before, .story_hero--dark_mod .vertical_line__end::before {
+  background-color: #000;
+}
+/*!***********************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/humanity-creativity.scss ***!
+  \***********************************************************************************************************************************************************************************************/
+.vertical_line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .vertical_line {
+    left: -8.9rem;
+    bottom: 4.4rem;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .vertical_line {
+    left: -2.3rem;
+  }
+}
+
+.vertical_line__line {
+  width: 3px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.vertical_line--dark_mod .vertical_line__line {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.vertical_line__dot {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.vertical_line__dot:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1rem;
+  background-color: #141313;
+}
+.vertical_line--dark_mod .vertical_line__dot {
+  background-color: #fff;
+}
+.vertical_line--dark_mod .vertical_line__dot::before {
+  background-color: #141313;
+}
+
+.vertical_line__start {
+  top: 0;
+}
+.vertical_line__start:before {
+  top: 1.5rem;
+}
+
+.vertical_line__end {
+  bottom: 0;
+}
+.vertical_line__end:before {
+  bottom: 1.5rem;
+}
+
+.humanity_creativity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  height: 100vh;
+  opacity: 0;
+}
+
+.humanity_creativity__text {
+  position: relative;
+  margin: 0 auto;
+  max-width: 105.3rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 140%;
+  color: #070707;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .humanity_creativity__text {
+    padding: 0 2rem;
+    max-width: 70rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .humanity_creativity__text {
+    padding: 0;
+    max-width: 50rem;
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .humanity_creativity__text {
+    position: relative;
+  }
+}
+.humanity_creativity__text::before {
+  content: "";
+  position: absolute;
+  left: -4.2rem;
+  top: -1.5rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  border-radius: 50%;
+  background-color: #212121;
+}
+@media screen and (max-width: 1024px) {
+  .humanity_creativity__text::before {
+    left: -3rem;
+    top: -3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .humanity_creativity__text::before {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .humanity_creativity__text::before {
+    left: -1.3rem;
+    top: -9.7rem;
+  }
+}
+
+/*# sourceMappingURL=src_js_pages_our-story_js.css.map*/

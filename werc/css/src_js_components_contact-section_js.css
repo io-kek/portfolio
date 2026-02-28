@@ -1,0 +1,69 @@
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./src/scss/components/contact-section.scss ***!
+  \*******************************************************************************************************************************************************************************************/
+.contact_section {
+  position: relative;
+  border-top: 4px solid #000;
+  background-color: #dce161;
+}
+@media screen and (min-width: 1024px) {
+  .contact_section {
+    padding-top: 7rem;
+    padding-bottom: 9.1rem;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .contact_section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact_section__in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.contact_section__header {
+  margin-right: 5rem;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 1023.5px) {
+  .contact_section__header {
+    margin-right: auto;
+    margin-bottom: 5.2rem;
+  }
+}
+
+.contact_section__link {
+  position: relative;
+  margin-left: auto;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.7);
+  transition: color 0.3s ease-in-out;
+}
+.contact_section__link:hover {
+  color: black;
+}
+@media screen and (min-width: 1024px) {
+  .contact_section__link {
+    font-size: 6.3rem;
+  }
+}
+@media screen and (max-width: 1023.5px) {
+  .contact_section__link {
+    font-size: 5rem;
+  }
+}
+
+/*# sourceMappingURL=src_js_components_contact-section_js.css.map*/
