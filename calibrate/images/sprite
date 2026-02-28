@@ -1,0 +1,33 @@
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<defs>
+					<style>
+						.sprite-symbol-usage {display: none;}
+						.sprite-symbol-usage:target {display: inline;}
+					</style>
+					
+							<symbol viewBox="0 0 18 18" id="about-v2"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="about"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="article"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="contact"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="index"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="insights"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="services"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="ui"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="work-case"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+							<symbol viewBox="0 0 18 18" id="work"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur><feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo"></feColorMatrix><feBlend in="SourceGraphic" in2="goo"></feBlend></filter></defs></symbol>
+						
+
+				</defs>
+				<use id="about-v2-usage" xlink:href="#about-v2" class="sprite-symbol-usage" /><use id="about-usage" xlink:href="#about" class="sprite-symbol-usage" /><use id="article-usage" xlink:href="#article" class="sprite-symbol-usage" /><use id="contact-usage" xlink:href="#contact" class="sprite-symbol-usage" /><use id="index-usage" xlink:href="#index" class="sprite-symbol-usage" /><use id="insights-usage" xlink:href="#insights" class="sprite-symbol-usage" /><use id="services-usage" xlink:href="#services" class="sprite-symbol-usage" /><use id="ui-usage" xlink:href="#ui" class="sprite-symbol-usage" /><use id="work-case-usage" xlink:href="#work-case" class="sprite-symbol-usage" /><use id="work-usage" xlink:href="#work" class="sprite-symbol-usage" />
+			</svg>
+		
